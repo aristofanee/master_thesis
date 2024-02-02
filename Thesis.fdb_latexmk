@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Thesis"] 1706795619.74048 "Thesis.aux" "Thesis.bbl" "Thesis" 1706795623.57575 0
-  "./master_thesis.bib" 1706795573 3693 b4cc7129a468c6236e7785d018562b69 ""
+["bibtex Thesis"] 1706866399.26115 "Thesis.aux" "Thesis.bbl" "Thesis" 1706866403.71937 0
+  "./master_thesis.bib" 1706866351 1952 77c9470ecb149f7cee82dd95f06dbaa5 ""
   "C:/Users/davno/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/abbrvnat.bst" 1284455456 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
-  "Thesis.aux" 1706795622 10282 49e1d8e7b55b83a5d83951c0a3c0bdcb "pdflatex"
+  "Thesis.aux" 1706866402 10002 cc9eaedd2013e7503a67d02b5715372a "pdflatex"
   (generated)
   "Thesis.bbl"
   "Thesis.blg"
   (rewritten before read)
-["pdflatex"] 1706795620.13297 "d:/Documenti/Universita/Thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1706795623.57717 0
+["pdflatex"] 1706866399.75342 "d:/Documenti/Universita/Thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1706866403.72121 0
   "C:/Users/davno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706790782 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/davno/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi1244/ecbx1200.pk" 1706790817 74568 095fde219eca79b620e92336a2469308 ""
   "C:/Users/davno/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi2500/ecbx1200.pk" 1706790799 154876 88689e9665c104de1a7bbb89bac94de9 ""
@@ -250,14 +250,14 @@
   "Images/02_ING_IND_INFORMAZIONE_COL_POSITIVO.eps" 1635228940 1016894 50c9d95dbacdb6a7531ebeec13361098 ""
   "Images/logo_polimi_scritta.eps" 1635228940 851182 27b8398cbf2246d7da4579be38265f9b ""
   "Images/logo_polimi_scritta2.eps" 1635228940 754430 5f7256b212f7ca3f6e41c30c75d53940 ""
-  "Thesis.aux" 1706795622 10282 49e1d8e7b55b83a5d83951c0a3c0bdcb "pdflatex"
-  "Thesis.bbl" 1706795620 1327 115d956574f80813aadf23925b891b15 "bibtex Thesis"
-  "Thesis.lof" 1706795622 546 b74106fc42233dd80e0d6f4d68b91417 "pdflatex"
-  "Thesis.lot" 1706795622 445 e53c76b749ef8a1450fe125648b63c1d "pdflatex"
-  "Thesis.out" 1706795622 3419 2884f0e0be17bfaf6710ace867c61549 "pdflatex"
-  "Thesis.tex" 1706795611 21907 43e3cebf7cf28b201a8d4deb2b372a7c ""
-  "Thesis.toc" 1706795622 2077 28e6eb66627a3e373590c06a841bb7df "pdflatex"
-  "d:/Documenti/Universita/Thesis/Thesis.tex" 1706795611 21907 43e3cebf7cf28b201a8d4deb2b372a7c ""
+  "Thesis.aux" 1706866402 10002 cc9eaedd2013e7503a67d02b5715372a "pdflatex"
+  "Thesis.bbl" 1706866399 564 d9c46be55b6a8b94b9df7c805454986f "bibtex Thesis"
+  "Thesis.lof" 1706866402 546 b74106fc42233dd80e0d6f4d68b91417 "pdflatex"
+  "Thesis.lot" 1706866402 445 e53c76b749ef8a1450fe125648b63c1d "pdflatex"
+  "Thesis.out" 1706866402 3419 2884f0e0be17bfaf6710ace867c61549 "pdflatex"
+  "Thesis.tex" 1706866396 21858 938cd2829122b394ca05c7fee2543dd4 ""
+  "Thesis.toc" 1706866402 2077 28e6eb66627a3e373590c06a841bb7df "pdflatex"
+  "d:/Documenti/Universita/Thesis/Thesis.tex" 1706866396 21858 938cd2829122b394ca05c7fee2543dd4 ""
   (generated)
   "Thesis.aux"
   "Thesis.lof"

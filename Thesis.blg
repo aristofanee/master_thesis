@@ -11,45 +11,45 @@ Warning--I didn't find a database entry for "knuth74"
 Warning--I didn't find a database entry for "knuth92"
 Warning--I didn't find a database entry for "lamport94"
 Warning--I didn't find a database entry for "bibtex"
-You've used 2 entries,
+You've used 1 entry,
             2773 wiz_defined-function locations,
-            621 strings with 5469 characters,
-and the built_in function-call counts, 1813 in all, are:
-= -- 142
-> -- 195
-< -- 0
-+ -- 65
-- -- 63
-* -- 194
-:= -- 307
-add.period$ -- 10
-call.type$ -- 2
-change.case$ -- 27
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 42
-empty$ -- 80
-format.name$ -- 65
-if$ -- 348
+            608 strings with 4793 characters,
+and the built_in function-call counts, 404 in all, are:
+= -- 36
+> -- 10
+< -- 1
++ -- 4
+- -- 3
+* -- 31
+:= -- 70
+add.period$ -- 5
+call.type$ -- 1
+change.case$ -- 4
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 20
+empty$ -- 37
+format.name$ -- 4
+if$ -- 79
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 22
-num.names$ -- 8
-pop$ -- 46
+missing$ -- 1
+newline$ -- 15
+num.names$ -- 4
+pop$ -- 5
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 3
 quote$ -- 0
-skip$ -- 44
+skip$ -- 13
 stack$ -- 0
-substring$ -- 41
-swap$ -- 4
+substring$ -- 11
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 11
 warning$ -- 0
-while$ -- 9
+while$ -- 4
 width$ -- 0
-write$ -- 41
+write$ -- 24
 (There were 6 warnings)
