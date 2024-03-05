@@ -81,6 +81,10 @@
 \usepackage{fancyhdr} % For the headers
 \fancyhf{}
 
+%ADDED PACKAGES BY DAVIDE
+\usepackage{caption} 
+\captionsetup[figure]{skip=-25pt}
+
 % Input of configuration file. Do not change config.tex file unless you really know what you are doing. 
 \input{Configuration_Files/config}
 
@@ -121,13 +125,13 @@
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the preamble pages
 
 \puttitle{
-	title=Ciao a tutti, % Title of the thesis
-	name= Emanuele Locati, % Author Name and Surname
-	course=Xxxxxxx Engineering - Ingegneria Xxxxxxx, % Study Programme (in Italian)
+	title=Libs, % Title of the thesis
+	name = {Davide Notaro, Emanuele Locati}, %\and Davide Notaro, % Author Name and Surname
+	course=Physics Engineering - Ingegneria Fisica, % Study Programme (in Italian)
 	ID  = 000000,  % Student ID number (numero di matricola)
-	advisor= Prof. Name Surname, % Supervisor name
+	advisor= Prof. Christoph Gerhard, % Supervisor name
 	coadvisor={Name Surname, Name Surname}, % Co-Supervisor name, remove this line if there is none
-	academicyear={20XX-XX},  % Academic Year
+	academicyear={2023-2024},  % Academic Year
 } % These info will be put into your Title page 
 
 %----------------------------------------------------------------------------
@@ -235,6 +239,9 @@ If necessary, an unnumbered chapter can be created by
 \chapter*{Title of the unnumbered chapter}
 \end{verbatim}
 
+\chapter{Experimental Techniques}
+\input{1_experimental_techniques.tex}
+
 \chapter{Chapter one}
 \label{ch:chapter_one}%
 % The \label{...}% enables to remove the small indentation that is generated, always leave the % symbol.
@@ -338,6 +345,22 @@ can contain multiple sub-figures with their own caption and label, e.g. \color{b
     \caption[Shorter caption]{This is a very long caption you don't want to appear in the List of Figures.}
     \label{fig:quadtree2}
 \end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{chapter_1/testFigure3.pdf}
+    \label{fig:testfigure}
+    \caption[Shorter caption]{Plot of the Spectra}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{chapter_1/test_saveas2.pdf}
+    \label{fig:testfigure2}
+    %\caption[Shorter caption]{Plot of the Spectra}
+    \caption{Plot of the Spectra}
+\end{figure}
+
 
 
 \subsection{Tables}
