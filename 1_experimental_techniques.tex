@@ -309,3 +309,130 @@ The most important spectral region for LIBS typically spans from 200 to $800\: n
 Currently, LIBS is limited by problems of low reproducibility, with a resulting poor accuracy. Problems associated whit shot to shot variations in plasma conditions, which are caused by the stochastic nature of the laser source and light-matter interaction, seem to be the major cause of this effect [Applications of single-shot laser]. For this reason, a single measurement is usually obtained by averaging hundreds of different shots.
 \\
 More details on spectra evaluation will be presented in %Chapter~\ref{}
+
+\section{FTIR}
+\label{sec:ftir}
+
+Fourier transform infrared spectroscopy (FTIR) is a non-destructive experimental technique that measures the absorption of infrared wavelengths from a sample. The resulting plot will show the percentage of transmission in the incoming radiation relative to the frequency, usually expressed in wavenumbers ($cm^{-1}$). 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{chapter_1/generic_ftir.pdf}
+    \vspace*{-30pt}
+    \caption{Example of a FTIR measurement.}
+    \label{fig:generic_spectrum_ftir}
+\end{figure}
+The reason why the infrared region of light is of specific relevance is because the rotational and vibrational thermal excitations of molecules are active in that range of frequencies.
+\\
+The absorption at specific frequencies allows for the identification of compounds present in the sample. The most common species that are identified with FTIR are organic molecules, but it is also possible to detect inorganic compounds. Thanks to its sensitivity to the shape of the molecular bonds this spectroscopy technique also allows for the differentiation of structural and geometric isomers, and the determination of molecular orientations in polymers and solutions.
+\\
+When a molecule interacts with a photon of infrared radiation, an energy equal to the difference between two quantized vibrational levels is absorbed. The resulting vibration can range from just the relative movement between two atoms to coupled vibrations of an entire molecule. In addition, the overall transition must change the electric dipole moment of the molecule, when this occurs, the vibration is said to be “IR active”.
+\\
+Here are some examples of some common organic vibrational modes with the relative frequencies:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{chapter_1/table_organic_ftir.png}
+    \vspace*{-20pt}
+    \caption{A table with the resonant frequencies for some organic compounds.}
+    \label{fig:table_organic}
+\end{figure}
+And here are some characteristic vibrational frequencies for some inorganic polyatomic ions:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.7\textwidth]{chapter_1/table_inorganic_ftir.png}
+    \vspace*{-10pt}
+    \caption{A table with the resonant frequencies for some inorganic compounds.}
+    \label{fig:table_inorganic}
+\end{figure}
+A common way to investigate on the surface absorption of a material is with Internal Reflectance Spectroscopy, where the probe beam of IR light is directed to the interface between a material with a high index of refraction and the sample that we want to analyze. Thanks to the angle of incidence of the beam and the difference in refractive indices between the two adjacent materials, the radiation is trapped due to total internal reflection, and bounces many times at the interface. At every reflection an evanescent wave penetrates the surface of the sample, with a penetration depth given by:
+\begin{align}
+    d_p=\frac{\lambda}{2\pi n_1\sqrt{\sin^2{\theta_i}-\left(n_2/n_1\right)^2}} \label{eq:pen_depth_wave}
+\end{align}
+During this process the sample absorbs some of the radiation, according to the type and concentration of the chemical species that are present on its surface.
+\\
+A scheme of the setup is presented: 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.7\textwidth]{chapter_1/internal_reflectance.png}
+    \vspace*{10pt}
+    \caption{Scheme of the internal reflectance spectroscopy. }
+    \label{fig:internal_reflectance}
+\end{figure}
+
+[every image taken from FOURIER TRANSFORM INFRARED (FTIR) SPECTROSCOPY]
+
+\section{Contact angle Measurement}
+\label{sec:contact_angle_measurement}
+
+The determination of the properties of the solid surface of different samples is of primary interest in applied sciences, since its importance spans over a wide range of cases. The analysis of the surface energy and wettability of a liquid toward a solid substrate is an effective approach to obtain these surface properties, in particular, contact angle measurement is considered as one of the simplest techniques capable of providing some valid insights in the determination of the surface tension of a solid sample.
+\\
+This technique is based on the experimental measurement of the contact angle of a liquid drop placed on top of a solid substrate. This kind of measurement is typically done by a machine that drops a fixed amount of liquid on the sample, and then takes a photo of the drop. The angle formed between the liquid-vapor and the liquid-solid interface at the intersection is then measured from the picture.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.7\textwidth]{chapter_1/droplet_contact_angle.png}
+    \vspace*{10pt}
+    \caption{Contact angle formed by the liquid spreads over the surface. }
+    \label{fig:contact_angle_example}
+\end{figure}
+The value of the contact angle is expected to be a characteristic property of a given surface in a given environment, since it is determined from the energy balance between the three equilibrium interfacial tensions, as stated by the Young’s equation:
+\begin{align}
+    \gamma_{SG} = \gamma_{SL} + \gamma_{LG} \cos\theta \label{eq:young_equation}
+\end{align}
+where /theta represents the measured contact angle, $/gamma_{LG}$, $/gamma_{SG}$ and $/gamma_{LS}$ respectively symbolize the liquid-vapor, solid-vapor and solid-liquid interfacial tensions.
+\\
+The Young’s equation, though, is valid only under very strict conditions; the need of a rigid, flat, nonreactive, homogeneous, smooth, and nonporous solid surface makes clear that its applicability is not always extended to real, non-ideal, surfaces.
+\\
+There are no general criteria yet that state how smooth a solid surface must be to neglect the effects caused by the roughness on the contact angle. It is, therefore, very important to prepare solid surfaces as smooth as possible to fall under the conditions of applicability of the Young’s equation. To make the experimental measurements easier, pure liquids are always used, mixtures and solutions are avoided since they would inevitably introduce complications due to different interactions between the surface and the various phases of the fluid [Contact angle measurement].
+\\
+For all these reasons, the sessile drop technique usually used to measure the contact angle, typically yields an accuracy no better than $\pm 2^\circ$.
+
+\section{XPS [EVERYTHING TAKEN FROM THE HANDBOOK OF XPS]}
+\label{sec:xps}
+X-ray photoelectron spectroscopy (XPS) is a powerful, surface sensitive, quantitative spectroscopy technique based on the photoelectric effect.
+\\
+The spectroscopy is performed by irradiating a sample with monochromatic x-ray photons and by analyzing the kinetic energy of electrons that are being emitted. The x-rays have a penetrating power of around 1-10 micrometers.
+\\
+The kinetic energy of the photons is given by the Einstein’s photoelectric equation:
+\begin{align}
+    \mathrm{KE}=h\nu-\mathrm{BE}-\phi_s \label{eq:einstein_ph_eq}
+\end{align}
+Where $\nu$ is the frequency of the photons, BE is the biding energy of the core electron in the material and $\phi_s$ is the work function of the spectrometer. The work function is defined as the difference between the fermi energy and the vacuum energy, i.e. the minimum energy needed to extract electrons from a material. 
+\\
+Other than directly ionized electrons, the so called “Auger electron” are emitted, due to the relaxation of the ions that are created after the first photoemission. Therefore, in general, photoionization leads to two emitted electrons:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{chapter_1/auger_electrons.png}
+    \vspace*{0pt}
+    \caption{Diagram of the photoelectric process (top) and the Auger process (bottom). }
+    \label{fig:auger_photoelectric}
+\end{figure}
+Even though the penetration depth of x-ray photons is in the order of microns, electrons interact much more strongly with matter. Consequently, only electrons generated within a few Angstroms of the surface can escape without losing energy.
+\\
+Due to the extreme surface sensitivity, the samples must be prepared before the measurements, usually by washing it with an appropriate solvent or by removing the first monolayers of the material with ion etching.
+\\
+To increase the number of electrons that can reach the detector after the emission and to decrease the concentration of adsorbed species on the sample, the photoemission is performed in ultra-high vacuum (UHV) with pressures of the order of $10^{-7} \: Pa$.
+\\
+A typical XPS spectra will be constituted by different kind of lines, such as:
+\begin{itemize}
+    \item Photoelectron lines.
+    \item Auger lines.
+    \item X-ray satellites: due to the presence of higher energy photons in the original beam.
+    \item X-ray “ghost” lines: transitions that are excited by external x-ray sources.
+    \item Shake-up lines: sometimes ionized atoms do not relax immediately, and they are left in a meta-stable excited state, electrons that are bounded to the ion will have a higher value of the binding energy that will result in a lower kinetic energy measured.
+    \item Multiplet splitting: the photoemission creates an unpaired electron, if the atom already had an unpaired electron in the outer shells, the possible ways of coupling (singlet, triplet, etc.) creates distinct peaks in the spectrum.
+    \item Energy loss lines: with some materials there is a certain probability of losing a specific amount of energy due the interaction of the photoelectron with other electrons at the surface, an example is the excitation of plasmons in metals.
+\end{itemize}
+\subsection{Chemical effects in XPS}
+\label{subsec:chemical_eff_xps}
+One of the most useful effects of XPS is its sensitivity to the chemical environment of the atoms detected. Some characteristics of peaks like intrinsic broadening and spin-orbit splitting are all independent of the chemical environment of the atoms, while, in contrast, the difference in screening caused by different oxidation states can lead 
+\\
+to a shift in the binding energy of a core electron.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.4\textwidth]{chapter_1/chemical_shift.png}
+    \vspace*{-10pt}
+    \caption{Differences in the energies of C1s peaks in a PET molecule. }
+    \label{fig:chemical_shift}
+\end{figure}
+

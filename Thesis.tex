@@ -126,7 +126,7 @@
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the preamble pages
 
 \puttitle{
-	title=Libs, % Title of the thesis
+	title = Use of Laser Induced Breakdown Spectroscopy to investigate the chemical composition of glass surfaces after optics manufacturing, % Title of the thesis
 	name = {Davide Notaro, Emanuele Locati}, %\and Davide Notaro, % Author Name and Surname
 	course=Physics Engineering - Ingegneria Fisica, % Study Programme (in Italian)
 	ID  = 000000,  % Student ID number (numero di matricola)
@@ -245,6 +245,10 @@ If necessary, an unnumbered chapter can be created by
 
 \chapter{Glass Manufacturing}
 \input{2_glass_manufacturing.tex}
+
+\chapter{Experimental Measurements}
+\input{3_experimental_measurements.tex}
+
 
 \chapter{Chapter one}
 \label{ch:chapter_one}%
@@ -395,7 +399,22 @@ Oxygen                         & mg/l   & 9,2-13,0                              
     \label{table:water_composition}
 \end{table}
 
-
+\begin{table}[H]
+    \centering
+\begin{tabular}{|l|c|}
+\hline
+Chemical Name     & Concentration in Weight (\%) \\ \hline
+Aluminum Oxide    & 1 - 10                         \\ \hline
+Boron Oxide       & 10 - 20                        \\ \hline
+Calcium Oxide     & \textless 1                  \\ \hline
+Chlorine          & \textless 1                  \\ \hline
+Sodium Oxide      & 1 - 10                       \\ \hline
+Antimony Trioxide & \textless 1                  \\ \hline
+Silica            & 60 - 70                        \\ \hline
+Zinc Oxide        & 10 - 20                        \\ \hline
+\end{tabular}
+    \label{table:nzk7_concentration}
+\end{table}
 
 Within the environments \texttt{table} and  \texttt{tabular} you can create very fancy tables as the one shown in Table~\ref{table:example}.
 \begin{table}[H]
