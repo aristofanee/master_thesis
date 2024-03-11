@@ -89,6 +89,7 @@
 \usepackage{caption} 
 \usepackage{mhchem}
 %\captionsetup[figure]{skip=-25pt}
+\newcommand{\mycomment}[1]{}
 
 % Input of configuration file. Do not change config.tex file unless you really know what you are doing. 
 \input{Configuration_Files/config}
@@ -257,6 +258,7 @@ If necessary, an unnumbered chapter can be created by
 \chapter{Experimental Results}
 \input{5_experimental_results.tex}
 
+\mycomment{
 \chapter{Chapter one}
 \label{ch:chapter_one}%
 % The \label{...}% enables to remove the small indentation that is generated, always leave the % symbol.
@@ -534,6 +536,8 @@ The bibliography and list of references are generated automatically by running B
 \label{ch:conclusions}%
 A final chapter containing the main conclusions of your research/study
 and possible future developments of your work have to be inserted in this chapter.
+
+}
 
 %-------------------------------------------------------------------------
 %	BIBLIOGRAPHY
