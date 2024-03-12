@@ -119,7 +119,7 @@
 			\vspace{1.5cm}
 			{\color{bluepoli} \bfseries \large{\textsc{Tesi di Laurea Magistrale in\\ \course}}\par}
 			\vspace{1.5 cm}
-			{\color{black} \Large {Author:} \bfseries{\name}}
+			{\color{black} \Large {Authors:} \bfseries{\name}}
 			\end{minipage}
 			\\
 			\vspace*{\fill}
@@ -129,9 +129,9 @@
 			Student ID: {\ID}
 			\\
 			Advisor: {\advisor}
-			\\
-			Co-advisors: {\coadvisor}
-			\\
+			
+			%Co-advisors: {\coadvisor}
+			
 			Academic Year: {\academicyear}
 			}
 			\end{minipage}

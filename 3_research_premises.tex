@@ -19,7 +19,7 @@ After having thought about the parameters we could vary, we settled on a collect
     \item Polishing time: by increasing the contact time we expect to see changes in the amount of concentration found at the surface.
     \item Polishing agent: expecting that the physical and chemical properties of different agents could have a different interaction with the glass. The two main polishing agents used in optics manufacturing are aluminum oxide (\ce{Al2O3}) and cerium oxide (\ce{CeO2}). The latter also usually contains traces of other elements like carbon or lanthanum.
     \item Type of water: tap water could impact the process by introducing new contaminants. Also, tap and distilled water can differ for chemical properties too, the pH of tap water is usually around 7.4 and distilled water is slightly more acidic with a pH of 5.7, due to the presence of a small amount of carbon dioxide that gets instantly dissolved into the water from the atmosphere [ph water paper].
-    \item •	Polish concentration: the common concentrations used in optic manufacturing are between 5\% to 30\% in mass, where the percentage indicates the fraction of the mass of the polishing agent relative to the total weight of the slurry. Concentration influences both the mechanical properties of the solution, by physically having more particles interacting with the surface, and the chemical ones, by changing the alkalinity.
+    \item Polish concentration: the common concentrations used in optic manufacturing are between 5\% to 30\% in mass, where the percentage indicates the fraction of the mass of the polishing agent relative to the total weight of the slurry. Concentration influences both the mechanical properties of the solution, by physically having more particles interacting with the surface, and the chemical ones, by changing the alkalinity.
     \item Type of glass: glasses with different compositions are used in optics because their refractive index is strongly dependent on the density of the material and by introducing different and heavier elements in the glass, the manufacturer can tune its optical properties to the desired ones. Having a high concentration of different elemental species inside the glass could change the parameters that regulate diffusion at the surface.
 \end{itemize}
 
@@ -27,7 +27,7 @@ After having thought about the parameters we could vary, we settled on a collect
 \label{sec:theoretical_prediction}
 As already mentioned in Chapter~\ref{sec:grinding_glass}, the description of the chemical-mechanical polishing is extremely complex, and it would be difficult to develop a model to predict and fit the results to the LIBS measurement.
 \\
-The simplest approach to describe the presence of contaminants in the glass is diffusion. Specifically, “normal” diffusion, where the concentration follows the two Fick’s laws. In particular, the second Fick’s law states:
+The simplest approach to describe the presence of contaminants in the glass is diffusion. Specifically, “normal” diffusion, where the concentration follows the two Fick’s laws. In particular, a solution for the second Fick’s law states:
 \begin{align}
     C\left(x,t\right)=C_0\operatorname{erfc}\left(\frac{x}{2\sqrt{Dt}}\right) \label{eq:second_fick}
 \end{align}
@@ -41,7 +41,7 @@ In our case the parameter $a$ is equal to $\frac{1}{2\sqrt{Dt}}$. The integral i
 \\
 The final expression is therefore: 
  \begin{align}
-    \overline{C}\left(d_{a},t\right)=C_{0}\int_{0}^{d_{a}}\operatorname{erfc}\left(\frac{x}{2\sqrt{Dt}}\right)\operatorname{d}x=C_{0}\left[d_{a}\operatorname{erfc}\left(\frac{d_{a}}{2\sqrt{Dt}}\right)-2\sqrt{\frac{Dt}{\pi}}\left[\exp\left(-\frac{d_{a}^{2}}{4Dt}\right)-1\right]\right]\frac{1}{d_a} \label{eq:c_bar_equation}
+    \overline{C}\left(d_{a},t\right)=\frac{C_{0}}{d_a}\int_{0}^{d_{a}}\operatorname{erfc}\left(\frac{x}{2\sqrt{Dt}}\right)\operatorname{d}x=C_{0}\left[d_{a}\operatorname{erfc}\left(\frac{d_{a}}{2\sqrt{Dt}}\right)-2\sqrt{\frac{Dt}{\pi}}\left[\exp\left(-\frac{d_{a}^{2}}{4Dt}\right)-1\right]\right]\frac{1}{d_a} \label{eq:c_bar_equation}
  \end{align}
 There are two functional contributions to the expression:
 \begin{align}
