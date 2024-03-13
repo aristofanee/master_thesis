@@ -126,7 +126,7 @@
 			\\
 			\begin{minipage}{0.85\textwidth}
 			\normalsize{
-			Student ID: {\ID}
+			Student IDs: {\ID}
 			\\
 			Advisor: {\advisor}
 			

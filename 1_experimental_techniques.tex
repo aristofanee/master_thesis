@@ -4,32 +4,30 @@
 \label{sec:LIBS}
 Laser-Induced Breakdown Spectroscopy (LIBS) is an atomic emission spectroscopy technique that utilizes high energy laser pulses to create plasma on the surface of material samples. It is a promising method in analytical chemistry and material analysis because it allows for the direct analysis of solid, liquid and even gas samples, without requiring any chemical preparation.
 \\
-The interaction between focused laser pulses and the sample leads to the creation of a plasma composed of ionized matter. This plasma emission can yield spectral signatures indicative of the chemical composition of various materials, regardless of their state of matter [Source: Fundamentals and Applications].
+The interaction between focused laser pulses and the sample leads to the creation of a plasma composed of ionized matter. This plasma emission can yield spectral signatures indicative of the chemical composition of various materials, regardless of their state of matter \cite{miziolekLaserInducedBreakdown2006}. 
 \\
 LIBS offers the capability of conducting both qualitative and accurate quantitative analyses. Qualitative analysis involves discriminating between different components of a target sample, whereas quantitative analysis goes further by not only identifying the chemical components but also determining their relative concentrations.
 \\
-However, due to the modest repeatability of the method, attributed to the high variability present between each experiment [Source: Applications of single-shot laser], LIBS does not enable researchers to achieve detection limits and precision as low as those attainable with other methods. Consequently, it is primarily utilized for qualitative, semi-quantitative, or comparative analysis.
+However, due to the modest repeatability of the method, attributed to the high variability present between each experiment \cite{michelReviewApplicationsSingleshot2010}, LIBS does not enable researchers to achieve detection limits and precision as low as those attainable with other methods. 
 \\
-The promising performance of this spectroscopy technique as a quantitative chemical analysis system has been facilitated by the development of new spectral processing algorithms in the last decade. These advancements have significantly broadened the application fields of LIBS. Today, LIBS finds applications ranging from diagnostics of archaeological objects to remote material assessment in nuclear power plants, and from the analysis of metal diffusion in solar cells to geological analysis in space explorations.
+The promising performance of this spectroscopy technique as a quantitative chemical analysis system has been facilitated by the development of new spectral processing algorithms in the last decade. These advancements have significantly broadened the application fields of LIBS. Today, LIBS finds applications ranging from diagnostics of archaeological objects to remote material assessment in nuclear power plants, and from the analysis of metal diffusion in solar cells to geological analysis in space explorations \cite{leeRecentApplicationsLaserInduced2004}.
 
-\subsection{LIBS technique}
+\subsection{LIBS Technique}
 \label{subsec:LIBS_technique}
-The processes involved in LIBS include laser-sample interaction, material removal, breakdown process, and element-specific emission.
+The processes involved in LIBS include laser-sample interaction, material removal, breakdown process, and element-specific emission \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}.
 \\
-Initially, the interaction between focused laser pulses and the target sample leads to the vaporization of a specific part of the surface area as the temperature reaches the sample material’s boiling point. The evaporated material forms a plume above the sample surface, and due to the continuous energy absorption of the laser, can result in the generation of a high-temperature plasma that will expand and eventually cool down.
-[Analytical Chemistry LIBS]
+Initially, the interaction between focused laser pulses and the target sample leads to the vaporization of a specific part of the surface area as the temperature reaches the sample material's boiling point. The evaporated material forms a plume above the sample surface, and due to the continuous energy absorption of the laser, can result in the generation of a high-temperature plasma that will expand and eventually cool down \cite{fortesLaserinducedBreakdownSpectroscopy2013}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.8\textwidth]{chapter_1/plasma_expansion_photo.png}
-    \caption[Photo of a plasma expanding.]{ Change in the dimensions of a laser plasma as the air pressure was reduced.}
+    \caption[Photo of a plasma expanding.]{ Change in the dimensions of a laser plasma as the air pressure was reduced. (Anabitarte 2012)}
     \label{fig:plasma_expansion}
 \end{figure}
-[PHOTO TAKEN FROM LIBS: FUNDAMENTALS AND APPLICATIONS]
 
-The light emitted from the plasma is indicative of the chemical composition of various materials. Positive identification of multiple elemental lines, including both wavelength and intensity within the emission spectrum, contributes to forming a unique spectral fingerprint of the target material. [Fundamentals and applications]
+The light emitted from the plasma is indicative of the chemical composition of various materials. Positive identification of multiple elemental lines, including both wavelength and intensity within the emission spectrum, contributes to forming a unique spectral fingerprint of the target material \cite{miziolekLaserInducedBreakdown2006}.
 \\
-The primary processes that occur during LIBS can be outlined in the following steps:
+The primary processes that occur during LIBS can be outlined in the following steps \cite{ApparatusFundamentals2006}:
 
 \begin{enumerate}
 \item A short laser pulse is focused on the target material.
@@ -40,82 +38,80 @@ The primary processes that occur during LIBS can be outlined in the following st
 \item A digital sensor, such as a CCD or a PMT, is used to collect the light and generate the spectrum.
 \item The wavelength and intensity of the resulting atomic emission peaks are analyzed to determine both the chemical elements present in the target sample and their relative concentrations.
 \end{enumerate}
-Each firing of the laser produces a single LIBS measurement. Typically, however, the signals from many laser plasmas are added or averaged to increase accuracy and precision and to average out nonconformities in sample composition. [LIBS Cambridge]
+Each firing of the laser produces a single LIBS measurement. Typically, however, the signals from many laser plasmas are added or averaged to increase accuracy and precision and to average out nonconformities in sample composition \cite{miziolekLaserInducedBreakdown2006}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_1/libs_setup.jpg}
-    \caption{A schematic of a general apparatus for laser-induced breakdown spectroscopy illustrating the principal components.}
+    \caption{A schematic of a general apparatus for laser-induced breakdown spectroscopy illustrating the principal components. (Miziolek 2013)}
     \label{fig:libs_setup}
 \end{figure}
-[PHOTO TAKEN FROM HANDBOOK OF LIBS]
 
 \subsection{Laser-sample Interaction}
 \label{subsec:laser-sample_int}
 
-When an atom absorbs a photon, it enters an excited state, where one of its electrons is promoted to a higher energy level. However, the excited states are not very stable, and electrons tend to transition to lower unpopulated energy levels either radiatively, when a photon is generated during the deexcitation process, and non-radiatively when the energy is dissipated in other forms, such as heat or vibration.
+When an atom absorbs a photon, it enters an excited state, where one of its electrons is promoted to a higher energy level. However, the excited states are not very stable, and electrons tend to transition to lower unpopulated energy levels either radiatively, when a photon is generated during the de-excitation process, and non-radiatively when the energy is dissipated in other forms, such as heat or vibration \cite{singhPreface2007}.
 \\
-Additionally, if the energy applied to the atom is sufficiently high to overcome the ionization potential, electrons can be detached from the atom, creating free negatively charged particles (electrons) and positively charged ions (cations). Initially, the outermost electron, with the lowest ionization potential, is the first to be detached. However, if the supplied energy is high enough, subsequent ionization potentials can be overcome, leading to the detachment of other electrons closer to the nucleus.
+Additionally, if the energy applied to the atom is sufficiently high to overcome the ionization potential, electrons can be detached from the atom, creating free negatively charged particles (electrons) and positively charged ions (cations). Initially, the outermost electron, with the lowest ionization potential, is the first to be detached. However, if the supplied energy is high enough, subsequent ionization potentials can be overcome, leading to the detachment of other electrons closer to the nucleus \cite{cagnacModernAtomicPhysics1975}.
 \\
-There are two main steps leading to breakdown due to optical excitation. The first involves generating a few free electrons that serve as initial receptors of energy through collisions with photons and neutrals. The second is avalanche ionization in the focal region. Free electrons are accelerated by the electric field of the photons, and as the kinetic energy of the electrons grows, collisions will lead to further ionization that will generate even more electrons, creating an avalanche of ionization. 
+There are two main steps leading to breakdown due to optical excitation. The first involves generating a few free electrons that serve as initial receptors of energy through collisions with photons and neutrals. The second is avalanche ionization in the focal region. Free electrons are accelerated by the electric field of the photons, and as the kinetic energy of the electrons grows, collisions will lead to further ionization that will generate even more electrons, creating an avalanche of ionization \cite{cabalinExperimentalDeterminationLaser1998}. 
 \\
-When a high-energy laser pulse is focused on the surface of a sample, if the irradiance at the focal point exceeds a certain threshold, atoms and ions are ejected from the surface in a process called ablation.
+When a high-energy laser pulse is focused on the surface of a sample, if the irradiance at the focal point exceeds a certain threshold, atoms and ions are ejected from the surface in a process called ablation \cite{fortesLaserinducedBreakdownSpectroscopy2013}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.6\textwidth]{chapter_1/libs_life_cycle.png}
-    \caption[LIBS life cycle.]{ Life cycle diagram showing main events in the LIBS process.}
+    \caption[LIBS life cycle.]{ Life cycle diagram showing main events in the LIBS process. (Miziolek 2006)}
     \label{fig:libs_life_cycle}
 \end{figure}
-[PHOTO TAKEN FROM Fundamentals and Applications]
+
 
 \subsection{Plasma in LIBS}
 \label{subsec:plasma_in_libs}
-Given the numerous physical and chemical variables characterizing this state, various definitions of plasma are possible. A plasma can be defined as a local assembly of atoms, ions, molecules, and free electrons, that are overall electrically neutral and exhibit a collective behavior.
+Given the numerous physical and chemical variables characterizing this state, various definitions of plasma are possible. A plasma can be defined as a local assembly of atoms, ions, molecules, and free electrons, that are overall electrically neutral and exhibit a collective behavior \cite{bittencourtFundamentalsPlasmaPhysics2004}.
 \\
-Under typical conditions, such as atmospheric pressure and temperature, gases are primarily neutral, with only a marginable amount of charged particles. However, at high temperatures ($T > 1000K$), thermal dissociation of atoms and molecules occurs. Plasma forms when the average kinetic energy of the electrons (given by $k_bT$), significantly surpasses the average binding energy of an electron in an ion.
+Under typical conditions, such as atmospheric pressure and temperature, gases are primarily neutral, with only a marginal amount of charged particles. However, at high temperatures ($T > 1000K$), thermal dissociation of atoms and molecules occurs. Plasma forms when the average kinetic energy of the electrons (given by $k_bT$), significantly surpasses the average binding energy of an electron in an ion \cite{bellanFundamentalsPlasmaPhysics2006}.
 \\
-Plasmas are characterized by a variety of parameters, such as the degree of ionization, the plasma temperature, and the electron density. Depending on the degree of ionization a plasma can be categorized as “weakly ionized”, where the ratio between electrons and other species is less than 10\%, or as “highly ionized” where, on the other hand, atoms could be stripped of many electrons, resulting in a very high electrons-to-ions ratio. LIBS plasmas typically fall in the first category of weakly ionized plasmas; in Figure~\ref{fig:plasma_parameters} we can see how LIBS plasmas compare in temperature and electron density relative to other types of plasma.
+Plasmas are characterized by a variety of parameters, such as the degree of ionization, the plasma temperature, and the electron density. Depending on the degree of ionization a plasma can be categorized as “weakly ionized”, where the ratio between electrons and other species is less than 10\%, or as “highly ionized” where, on the other hand, atoms could be stripped of many electrons, resulting in a very high electrons-to-ions ratio. LIBS plasmas typically fall in the first category of weakly ionized plasmas; in Figure~\ref{fig:plasma_parameters}(Fujimoto 2008) we can see how LIBS plasmas compare in temperature and electron density relative to other types of plasma \cite{ApparatusFundamentals2006}.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/plasma_parameters.png}
-    \caption{Relation between plasma parameters and type of plasma.}
+    \caption{Relation between plasma parameters and type of plasma. (Fujimoto 2008 \cite{fujimotoPlasmaSpectroscopy2008})}
     \label{fig:plasma_parameters}
 \end{figure}
-[PHOTO TAKEN FROM HANDBOOK OF LIBS]
-The characteristics of the radiation emitted by the plasma depend on the type of radiative transitions that are occurring. At earlier times, where the plasma ionization level is high, the emission will be dominated by a continuum produced by both the bremsstrahlung (free-free transition) and the recombination processes (free-bound transition). Recombination occurs when a free electron is captured by a free ion, releasing its kinetic energy radiatively; while in bremsstrahlung the light is emitted due to electrons being accelerated or decelerated in collisions.
+The characteristics of the radiation emitted by the plasma depend on the type of radiative transitions that are occurring. At earlier times, where the plasma ionization level is high, the emission will be dominated by a continuum produced by both the bremsstrahlung (free-free transition) and the recombination processes (free-bound transition). Recombination occurs when a free electron is captured by a free ion, releasing its kinetic energy radiatively; while in bremsstrahlung the light is emitted due to electrons being accelerated or decelerated in collisions \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}.
 \\
 However, the most interesting emissions that can be used for elemental analysis are caused by bound-to-bound transitions that occur between energy levels of ions, atoms, and molecules. 
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_1/time_plasma_emission.png}
-    \caption{Evolution of the emission of the LIBS plasma over time.}
+    \caption{Evolution of the emission of the LIBS plasma over time. (Miziolek 2013)}
     \label{fig:time_plasma_emission}
 \end{figure}
 
 \subsubsection{Plasma Parameters and Emission Characteristics}
 \label{subsubsec:plasma_parameters}
-Bound-to-bound transitions are characterized by a fixed energy value, equal to the energy difference between the initial and final level. However, experimentally we see that the measured emission spectrum is not constituted by a collection of sharp lines, but of bell curves instead, with different FWHM. This is because spectral line profiles are also influenced by broadening mechanisms; specifically, pure Doppler broadening, caused by the thermal movement of the emitting particles, will lead to a Gaussian profile, while natural line broadening, due to the time-energy uncertainty principle, and collision broadening will lead to a Lorentzian profile. The collisions between ions and electrons will result in Stark broadening due to the presence of high intensity electric fields near the particles; this phenomenon is predominant in plasmas with higher electron densities, due to the higher probability of collision. 
+Bound-to-bound transitions are characterized by a fixed energy value, equal to the energy difference between the initial and final level. However, experimentally we see that the measured emission spectrum is not constituted by a collection of sharp lines, but of bell curves instead, with different FWHM. This is because spectral line profiles are also influenced by broadening mechanisms; specifically, pure Doppler broadening, caused by the thermal movement of the emitting particles, will lead to a Gaussian profile, while natural line broadening, due to the time-energy uncertainty principle, and collision broadening will lead to a Lorentzian profile \cite{griemSpectralLineBroadening2012}. The collisions between ions and electrons will result in Stark broadening due to the presence of high intensity electric fields near the particles; this phenomenon is predominant in plasmas with higher electron densities, due to the higher probability of collision. 
 \\
-The Stark broadening causes energy levels to be split according to the value of the quantum number $m_j$, associated with the $z$ component of the total angular momentum $J$, resulting in an asymmetric broadening.
+The Stark effect causes energy levels to be split according to the value of the quantum number $m_j$ \cite{griffithsIntroductionQuantumMechanics2017}, associated with the $z$ component of the total angular momentum $J$, resulting in an asymmetric broadening.
 The overall line shape depends on the relative intensity of the different broadening mechanisms and will have a resulting profile obtained by the convolution of the Gaussian and Lorentzian curves, called a Voigt profile.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 0.6\textwidth]{chapter_1/voigt.png}
-    \caption{Plot of a Voigt profile.}
+    \includegraphics[width = 0.8\textwidth]{chapter_1/voigt.png}
+    \caption{Plot of a Voigt profile. (Cremers 2013)}
     \label{fig:voigt}
 \end{figure}
-[taken from https://scipython.com/book/chapter-8-scipy/examples/the-voigt-profile/]
+
+In normal conditions the main contributions of broadening in a LIBS plasma are due to Doppler and Stark effect. Natural line width is always present but usually the effect is so small that, even without the presence of other broadening mechanisms, it would not be resolved by commonly used LIBS spectrometer (it can be easily estimated that $\Delta\lambda = 0.002\:nm$ for a $10\:ns$ transition at $500\:nm$).
 \\
-In normal conditions the main contributions of broadening in a LIBS plasma are due to Doppler and Stark effect. Natural line width is always present but usually the effect is so small that, even without the presence of other broadening mechanisms, it would not be resolved by commonly used LIBS spectrometer ($\Delta\lambda = 0.002\:nm$ for a $10\:ns$ transition at $500\:nm$).
-\\
-The Doppler width depends only on the temperature of the plasma and on the mass of the particles that are emitting the electromagnetic waves:
+The Doppler width depends only on the temperature of the plasma ($T$) and on the mass of the particles that are emitting the electromagnetic waves ($M$), that can be both the ions and the electrons:
 \begin{align}
     \Delta\lambda_{D}=7.2\times{10}^{-7}\left(T/M\right)^{1/2}\lambda_{o} \label{eq:doppler_eq}
 \end{align}
 
-The Stark effect will produce both a broadening and a shift, and both are dependent on the electron density ($N_e$) and can be used experimentally to obtain the parameter:
+The Stark effect will produce both a broadening and a shift, and both are dependent on the electron density ($N_e$) and can be used experimentally to obtain the parameter \cite{griemSpectralLineBroadening2012}.
 
 \begin{align}
     w_{\mathrm{total}}&\sim\left[1+1.75A\left(1-0.75r\right)\right]\left(n_{e}/{10}^{16}\right)w \label{eq:stark_width} \\ 
@@ -124,7 +120,7 @@ The Stark effect will produce both a broadening and a shift, and both are depend
 
 \subsubsection{Plasma Opacity}
 \label{subsubsec:plasma_opacity}
-A plasma is defined as “optically thin” when the emitted radiation can freely escape from the plasma without being absorbed or scattered. This is a crucial characteristic to have in a plasma used for LIBS measurement, in this way the emitted radiation can be directly and more easily correlated with the atomic concentrations in the material.
+A plasma is defined as “optically thin” when the emitted radiation can freely escape from the plasma without being absorbed or scattered. This is a crucial characteristic to have in a plasma used for LIBS measurement, in this way the emitted radiation can be directly and more easily correlated with the atomic concentrations in the material \cite{ApparatusFundamentals2006}.
 \\
 In general, the intensity of the radiation is given by:
 
@@ -143,33 +139,31 @@ For strong lines, self-absorption will manifest as a flat-topped profile while f
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_1/self_absorption_flat.png}
-    \caption{Flat-topped profile of a spectrum caused by self-absorption.}
+    \caption{Flat-topped profile of a spectrum caused by self-absorption. (Hermann 2017 \cite{hermannIdealRadiationSource2017})}
     \label{fig:self_absorbed_flat}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.8\textwidth]{chapter_1/self_absorption_peak.png}
-    \caption{Self-reversed line caused by high optical thickness.}
+    \caption{Self-reversed line caused by high optical thickness. (Hermann 2017)}
     \label{fig:self_absorbed_peak}
 \end{figure}
-[Taken from jorg's powerpoint]
 
 \subsubsection{Thermodynamic Equilibrium and Plasma Temperature}
 \label{subsubsec:thermodynamic_eq}
 
-If a plasma is in thermodynamic equilibrium, it means that all the individual species (electrons, ions, atoms, and molecules) can be described by the same temperature. This condition is generally not true; collisions between particles of the same mass have a much higher probability of equally distributing the kinetic energy after the interaction, this leads to the different species achieving equilibrium individually but not globally, and in general the plasma will be characterized by a different temperature for each one of them.
+If a plasma is in thermodynamic equilibrium, it means that all the individual species (electrons, ions, atoms, and molecules) can be described by the same temperature. This condition is generally not true; collisions between particles of the same mass have a much higher probability of equally distributing the kinetic energy after the interaction, this leads to the different species achieving equilibrium individually but not globally, and in general the plasma will be characterized by a different temperature for each one of them \cite{griemPrinciplesPlasmaSpectroscopy1997}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.8\textwidth]{chapter_1/electron_equilibrium.png}
-    \caption{Convergence of electron temperature for an air plasma.}
+    \caption{Convergence of the electron temperature for an air plasma. (Radziemsky 1985 \cite{radziemskiMeasurementPropertiesCO21985})}
     \label{fig:electron_equilibrium}
 \end{figure}
-[taken from the HANDBOOK of libs]\\
-In Figure~\ref{fig:electron_equilibrium} we can see electrons reaching global equilibrium $25\:\mu s$ after the incidence of the pulse. By looking at the Figure~\ref{fig:time_plasma_emission} is evident that the intensity of the emission decays exponentially, and at $25\: \mu s$ the magnitude is already negligible. For this reason, the condition of global thermodynamic equilibrium is not usually required, and it is enough to demand the “Local Thermodynamic Equilibrium” (LTE), where we assume that the equilibrium is reached only locally in small portions of the plasma.
+In Figure~\ref{fig:electron_equilibrium} (Radziemsky 1985) we can see electrons reaching global equilibrium $25\:\mu s$ after the incidence of the pulse. By looking at the Figure~\ref{fig:time_plasma_emission} (Miziolek 2013) is evident that the intensity of the emission decays exponentially, and at $25\: \mu s$ the magnitude is already negligible. For this reason, the condition of global thermodynamic equilibrium is not usually required, and it is enough to demand the “Local Thermodynamic Equilibrium” (LTE), where we assume that the equilibrium is reached only locally in small portions of the plasma.
 \\
-An important criterion to test if a plasma is in thermodynamic equilibrium is the so-called “McWhirter criterion”; is used to see if the electron density is high enough for collision to dominate the population of levels. 
+An important criterion to test if a plasma is in thermodynamic equilibrium is the so-called “McWhirter criterion”; is used to see if the electron density is high enough for collision to dominate the population of levels \cite{ferrariPlasmaDiagnosticTechniques1967}. 
 \\
 The McWhirter criterion can be expressed by this relation: 
 
@@ -178,7 +172,7 @@ The McWhirter criterion can be expressed by this relation:
 \end{align}
 Where $\delta E$ is the energy of the first level above the ground state.
 \\
-A more precise way to check if the LTE condition is valid is to see if the plasma respects the theoretical temperatures calculated by the Boltzmann and Saha equations. 
+A more precise way to check if the LTE condition is valid is to see if the plasma respects the theoretical temperatures calculated by the Boltzmann and Saha equations \cite{colaoLaserinducedBreakdownSpectroscopy2002} \cite{quinteroDeterminationExcitationTemperature1997}. 
 For $N_o$ electrons distributed between two levels $i,j$ with respective populations $N_i$ and $N_j$, the relative population will be given by the Boltzmann distribution:
 \begin{align}
    N_j/N_{o}=\left(g_j/Z\right)\exp{\left[-E_j/kT\right]}N_j/N_i=\left(g_j/g_i\right)\exp{\left[-\left(E_j-E_i\right)/kT\right]} \label{eq:boltzmann_distribution}  
@@ -197,16 +191,15 @@ A better and more reliable way to measure the temperature is to use more than on
    \ln{\left(I\lambda/gA\right)}=-E/kT-\ln{\left(4\pi Z/hcN_0\right)} \label{eq:bolzmann_plot_eq}  
 \end{align}
 
-In this way there is a linear dependence between the logarithm of a parameter related to the line intensity and the transition energy, with an angular coefficient $1/kT$. By plotting various transitions of the same element, if the data follows a linear trend, the assumption of LTE is valid, and it is possible to obtain the temperature from the slope.
+In this way there is a linear dependence between the logarithm of a parameter related to the line intensity and the transition energy, with an angular coefficient $1/kT$. By plotting various transitions of the same element, if the data follows a linear trend, the assumption of LTE is valid, and it is possible to obtain the temperature from the slope, as n example of a Boltzmann plot can be seen in Figure~\ref{fig:boltzmann_plot_example} (Cremers 2013).
 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/boltzmann_plot.png}
-    \caption{Multi-line Boltzmann plot based on uranium data.}
+    \caption{Multi-line Boltzmann plot based on uranium data. (Cremers 2013)}
     \label{fig:boltzmann_plot_example}
 \end{figure}
-[taken from the HANDBOOK of libs]\\
-While the Boltzmann equation regulates the different populations of energy levels in neutral atoms and molecules, the Saha equation describes the relative populations of different ion stages of a certain atomic species in LTE. The expression of the equation is:
+While the Boltzmann equation regulates the different populations of energy levels in neutral atoms and molecules, the Saha equation describes the relative populations of different ion stages of a certain atomic species in LTE. The expression of the equation \cite{bekefiPrinciplesLaserPlasmas1976} is:
 
 \begin{align}
    \frac{N\left(Z,0\right)}{N\left(Z-1,0\right)}n_{e}=\left(2\left(2\pi m k T\right)^{3/2}/h^3\right)\left(gA\left(Z,0\right)/gA\left(Z-1,0\right)\right)\exp{\left[-\Delta E/kT\right]} \label{eq:saha_equation}  
@@ -219,7 +212,7 @@ Both equations can be used in conjunction to test for LTE and to estimate the te
 \subsection{LIBS Setup Components}
 \label{subsec:libs_setup_component}
 [taken from Fundamentals and applications]
-In a LIBS analysis, four main devices are involved:
+In a LIBS analysis, four main devices are involved \cite{singhPreface2007}:
 \begin{enumerate}
     \item High-energy pulsed laser: Typically operating with nanosecond-duration pulses, the laser is directed at the sample that needs to be studied, causing surface evaporation, and inducing plasma formation.
     \item Spectrometer: Responsible for both diffracting the light collected through an appropriate optical system to obtain its spectral signature and then detecting the intensity of the light at each wavelength. This can be achieved using various devices such as photomultiplier tubes (PMT), photodiode arrays (PDA), or charge-coupled devices (CCD). 
@@ -234,7 +227,7 @@ The selection of the laser, combined with the spectrometer, detector, and time c
 \label{subsubsec:laser_setup_component}
 The laser is the central component of the LIBS system, providing the energy necessary to induce plasma formation. Consequently, the characteristics of the plasma are closely tied to the properties of the laser. The laser influence on the evolution of the plasma occurs both during the interaction between the laser pulse and the sample surface and during the interaction of the laser pulse with the generated plasma plume.
 \\
-The main parameters related to the laser source include:
+The main parameters related to the laser source include \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}:
 \begin{itemize}
     \item Wavelength.
     \item Pulse energy.
@@ -244,52 +237,48 @@ The main parameters related to the laser source include:
 
 \paragraph{Wavelength}
 \label{par:wavelength_setup_component}
-After the initiation of the ablation process, the laser pulse interacts with the gas plume composed of ablated material from the sample's surface. As previously discussed, when the energy of the incoming photon exceeds the bond energy of the electron, photoionization occurs.
+After the start of the ablation process, the laser pulse interacts with the gas plume \cite{fortesLaserinducedBreakdownSpectroscopy2013} composed of ablated material from the sample's surface. As previously discussed, when the energy of the incoming photon exceeds the bond energy of the electron, photoionization occurs.
 \\
-Plasma formation primarily occurs through two processes: inverse bremsstrahlung and photoionization. In inverse bremsstrahlung, free electrons gain kinetic energy by absorbing photons from the incident laser light during collisions with atoms and ions.
+Plasma formation primarily occurs through two processes: inverse bremsstrahlung and photoionization. In inverse bremsstrahlung, free electrons gain kinetic energy by absorbing photons from the incident laser light during collisions with atoms and ion \cite{moenke-blankenburgDirectSolidSoil1994}.
 \\
-Inverse bremsstrahlung is more favorable for infrared (IR) and longer wavelengths. [Fundamentals and applications, 26] Consequently, laser sources with shorter wavelengths transfer energy to the material more efficiently, leading to higher ablation rates since the effect of plasma shielding is lower. However, for the same reason plasma ignition is less efficient with shorter wavelengths, resulting in a higher threshold for plasma formation. On the other hand, longer wavelengths will transfer energy to the plasma more efficiently but resulting in lower surface ablation.
+Inverse bremsstrahlung is more favorable for infrared (IR) and longer wavelengths \cite{cabalinExperimentalDeterminationLaser1998}. Consequently, laser sources with shorter wavelengths transfer energy to the material more efficiently, leading to higher ablation rates since the effect of plasma shielding is lower \cite{russoInfluenceWavelengthFractionation2000}. However, for the same reason plasma ignition is less efficient with shorter wavelengths, resulting in a higher threshold for plasma formation. On the other hand, longer wavelengths will transfer energy to the plasma more efficiently but resulting in lower surface ablation \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}.
 \\
-A variety of lasers are utilized in LIBS systems, with solid-state Nd: YAG lasers being commonly employed. This choice is attributed to their relatively low cost, ease of maintenance, and compact size, enabling their integration into systems of various sizes. The Nd: YAG laser typically operates at a fundamental wavelength of $1064\:nm$ with a pulse temporal width between $6$ and $15\:ns$. However, it is common for these lasers to operate at higher harmonics, such as the second harmonic at $532\:nm$, the third harmonic at $355\:nm$, or the fourth harmonic at $266\:nm$. These higher harmonics are less powerful and feature shorter pulse durations, typically between 4 and $8\:ns$ [Fundamentals and Applications].
+A variety of lasers are utilized in LIBS systems, with solid-state Nd:YAG lasers being commonly employed \cite{koechnerSolidStateLaserEngineering2006}. This choice is attributed to their relatively low cost, ease of maintenance, and compact size, enabling their integration into systems of various sizes \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}. The Nd: YAG laser typically operates at a fundamental wavelength of $1064\:nm$ \cite{ApparatusFundamentals2006} with a pulse temporal width between $6$ and $15\:ns$. However, it is common for these lasers to operate at higher harmonics, such as the second harmonic at $532\:nm$, the third harmonic at $355\:nm$, or the fourth harmonic at $266\:nm$. These higher harmonics are less powerful and feature shorter pulse durations, typically between 4 and $8\:ns$ \cite{singhPreface2007}.
 
 \paragraph{Pulse Energy}
 \label{par:pulse_energy_setup_component}
-Both ablation and plasma ignition are significantly influenced by the energy and temporal duration of the laser pulse. In LIBS applications, the energy delivered to the sample per unit area is a more critical parameter than the absolute energy value of the laser pulse. Therefore, the primary physical quantities used in the analysis are Fluence, which represents energy per unit area (measured in $J/cm^2$), and Irradiance, which represents power per unit area (measured in $W/cm^2$).
+Both ablation and plasma ignition are significantly influenced by the energy and temporal duration of the laser pulse. In LIBS applications, the energy delivered to the sample per unit area is a more critical parameter than the absolute energy value of the laser pulse \cite{maoLaserAblationProcesses1998}. Therefore, the primary physical quantities used in the analysis are fluence, which represents energy per unit area (measured in $J/cm^2$), and irradiance, which represents power per unit area (measured in $W/cm^2$).
 \\
-For this reason, fluence and irradiance can be adjusted both by varying the energy of the pulse and by tuning the focal length of the system, in order to change the spot size of the laser on the sample surface.
+For this reason, fluence and irradiance can be adjusted both by varying the energy of the pulse and by tuning the focal length of the system, in order to change the spot size of the laser on the sample surface \cite{abdelhamidEffectChangingLaser2009}.
 \\
-Variations in pulse energies and focusing distances will also impact the shape and temporal evolution of the plasma plume [Analytical Chemistry LIBS]. At high irradiances, the plasma will contain more ablated material and possess greater internal energy, allowing it to expand with a hemispherical shape by pushing the surrounding air farther away. Conversely, at lower fluence levels, the plume will expand with less energy, resulting in a shape similar to a disk that evolves radially and remains closer to the surface of the sample.
+Variations in pulse energies and focusing distances will also impact the shape and temporal evolution of the plasma \cite{sarkarStudiesNsIRLaserInducedPlasma2011}. At high irradiances, the plasma will contain more ablated material and possess greater internal energy, allowing it to expand with a hemispherical shape by pushing the surrounding air farther away. Conversely, at lower fluence levels, the plasma plume will expand with less energy, resulting in a shape similar to a disk that evolves radially and remains closer to the surface of the sample \cite{fortesLaserinducedBreakdownSpectroscopy2013}.
+
 \paragraph{Laser Pulse Duration}
 \label{par:laser_pulse_duration_setup_component}
-
-Regardless of their duration, laser pulses typically meet the necessary conditions for ablating targets. The rate of energy deposition will, indeed, surpass the rate of energy redistribution and dissipation through the sample lattice, leading to extremely high temperatures in those regions where energy absorption occurs.
+Regardless of their duration, laser pulses typically meet the necessary conditions for ablating targets. The rate of energy deposition will, indeed, surpass the rate of energy redistribution and dissipation through the sample lattice, leading to extremely high temperatures in those regions where energy absorption occurs \cite{fortesLaserinducedBreakdownSpectroscopy2013}.
 \\
 The nature of ablation is strongly influenced by the duration of the laser pulse.
-When using lasers that generate pulses in the femtosecond regime, non-thermal processes dominate the ionization. This means that since the pulse duration is too short to induce thermal effects in the sample's matrix structure, other mechanisms are therefore responsible for ionizing the atoms. In this case, the pulse carries a significant amount of energy, and phenomena such as photochemical absorption, multi-photon absorption, tunneling, and avalanche ionization occur to excite the sample. 
+When using lasers that generate pulses in the femtosecond regime, non-thermal processes dominate the ionization. This means that since the pulse duration is too short to induce thermal effects in the sample's matrix structure, other mechanisms are therefore responsible for ionizing the atoms. In this case, the pulse carries a significant amount of energy, and phenomena such as photochemical absorption, multi-photon absorption, tunneling, and avalanche ionization occur to excite the sample \cite{singhPreface2007}. 
 \\
 The absence of thermal effects results in the formation of a crater with sharply defined edges, without any melted or deposited materials surrounding it. After the laser pulse, only a very hot electron gas and an essentially undisturbed lattice remain.
 \\
-Conversely, when using laser pulses in the nanosecond regime, different effects come into play. The time required for electron-lattice heating is approximately $1\:ps$ [Fundamentals and Applications], much shorter than the duration of the pulse. As a result, thermal effects dominate the ionization process.
-\\
-After the interaction with the laser pulse, the material undergoes transient changes in thermodynamic states, transitioning from solid to liquid and ultimately into a plasma state [Analytical Chemistry].
-\\
-In simple terms, the pulse initially melts and vaporizes the surface, with the increasing temperature eventually leading to the ionization of atoms. If the irradiance is sufficiently high, both thermal and non-thermal effects will contribute to the ionization of the sample. Between 1 and $10 \: ns$, the plasma becomes opaque to laser radiation [Fundamentals and Applications]. As a result, the latter part of the pulse does not significantly contribute to surface vaporization. Instead, it interacts with the already generated plasma plume, potentially being absorbed, or reflected. This interaction leads to a decrease in the ablation rate, a phenomenon known as "Plasma Shielding." 
-\\
-Plasma Shielding is highly dependent on environmental conditions such as pressure and the composition of gases in the atmosphere, as well as experimental factors including laser wavelength and irradiance.
-\\
-When using nanosecond pulses, the generated craters typically exhibit melted and deposited material around them, as seen in the SEM images shown in Figure~\ref{fig:craters_laser_duration}:
+Conversely, when using laser pulses in the nanosecond regime, different effects come into play. The time required for electron-lattice heating is approximately $1\:ps$ \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}, much shorter than the duration of the pulse. As a result, thermal effects dominate the ionization process. When using nanosecond pulses, the generated craters typically exhibit melted and deposited material around them, as seen in the SEM images shown in Figure~\ref{fig:craters_laser_duration}:
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/craters_laser_duration.jpg}
-    \caption{SEM images of craters produced by different types of laser.}
+    \caption{SEM images of craters produced by different types of laser. (Momma 1997 \cite{mommaPreciseLaserAblation1997})}
     \label{fig:craters_laser_duration}
 \end{figure}
-[taken from the HANDBOOK of LIBS]
+After the interaction with the laser pulse, the material undergoes transient changes in thermodynamic states, transitioning from solid to liquid and ultimately into a plasma state \cite{fortesLaserinducedBreakdownSpectroscopy2013}.
 \\
-At the same time, the plasma is reheated, resulting in longer plasma lifetimes and larger plasma plume sizes [Fundamentals and Applications].
+In simple terms, the pulse initially melts and vaporizes the surface, with the increasing temperature eventually leading to the ionization of atoms. If the irradiance is sufficiently high, both thermal and non-thermal effects will contribute to the ionization of the sample. From 1 to $10 \: ns$ after the plasma formation, the plasma becomes opaque to laser radiation \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}. As a result, the latter part of the pulse does not significantly contribute to surface vaporization. Instead, it interacts with the already generated plasma plume, potentially being absorbed, or reflected. This interaction leads to a decrease in the ablation rate, a phenomenon known as "Plasma Shielding" \cite{vadilloEffectPlasmaShielding1999,aguileraPlasmaShieldingEffect1998}. 
+\\
+Plasma Shielding is highly dependent on environmental conditions such as pressure and the composition of gases in the atmosphere, as well as experimental factors including laser wavelength and irradiance.
+\\
+As a consequent of the absorption, the plasma is reheated, resulting in longer plasma lifetimes and larger plasma plume sizes \cite{angelLIBSUsingDual2001}.
 \subsection{Spectra Evaluation}
 \label{subsec:spectra_evaluation}
-Once the plasma has been ignited, the emitted light is collected by a detector, which creates a spectrum with the intensities of the measured light on the $y$ axis, and the wavelengths on the $x$ axis. 
+Once the plasma has been ignited, the emitted light is collected by a detector, which creates a spectrum with the intensity of the measured light on the $y$ axis, and the wavelengths on the $x$ axis. 
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_1/generic_spectrum.pdf}
@@ -297,23 +286,24 @@ Once the plasma has been ignited, the emitted light is collected by a detector, 
     \caption{LIBS spectrum of a pure silica sample we measured.}
     \label{fig:generic_spectrum}
 \end{figure}
-This spectrum may contain emission lines from atomic species, as well as continuous radiation resulting from bremsstrahlung [Fundamentals and Applications].
+This spectrum may contain emission lines from atomic species, as well as continuous radiation resulting from bremsstrahlung.
 \\
 Continuous radiation can hide emission lines, so efforts should be made to minimize its detection. 
 \\
 Since the energy of a transition is characteristic of the particle species, analyzing photon energies can reveal the composition of the plasma.
-Accurate identification of LIBS emission lines is essential for determining the elemental constituents of a sample. The analysis of the LIBS spectrum will reveal elements present at concentrations above the method's minimum detectable limit (LOD).
+Accurate identification of LIBS emission lines is essential for determining the elemental constituents of a sample. The analysis of the LIBS spectrum will reveal elements present at concentrations above the method's minimum detectable limit (LOD) \cite{elhaddadGoodPracticesLIBS2014} that is in general different for every species.
 \\
 The most important spectral region for LIBS typically spans from 200 to $800\: nm$, where most elements exhibit strong emission lines. In addition to emission from atoms and ions, emission from simple molecules may also be observed in the samples. Generally, high concentrations of the elements composing the molecules must be present for molecular emission to be observed.
 \\
-Currently, LIBS is limited by problems of low reproducibility, with a resulting poor accuracy. Problems associated whit shot to shot variations in plasma conditions, which are caused by the stochastic nature of the laser source and light-matter interaction, seem to be the major cause of this effect [Applications of single-shot laser]. For this reason, a single measurement is usually obtained by averaging hundreds of different shots.
+Currently, LIBS is limited by problems of low reproducibility, with a resulting poor accuracy. Problems associated whit shot to shot variations in plasma conditions, which are caused by the stochastic nature of the laser source and light-matter interaction, seem to be the major cause of this effect \cite{michelReviewApplicationsSingleshot2010}. For this reason, a single measurement is usually obtained by averaging hundreds of different shots.
 \\
-More details on spectra evaluation will be presented in %Chapter~\ref{}
+More details on spectra evaluation will be presented in Chapter~\ref{subsec:analysis_workflow}.
 
 \section{FTIR}
 \label{sec:ftir}
 
-Fourier transform infrared spectroscopy (FTIR) is a non-destructive experimental technique that measures the absorption of infrared wavelengths from a sample. The resulting plot will show the percentage of transmission in the incoming radiation relative to the frequency, usually expressed in wavenumbers ($cm^{-1}$). 
+Fourier Transform Infrared Spectroscopy (FTIR) is a non-destructive experimental technique that measures the absorption of infrared wavelengths from a sample \cite{gaffneyFourierTransformInfrared2012}. The resulting plot will show the percentage of transmission in the incoming radiation relative to the frequency, usually expressed in wavenumbers ($cm^{-1}$). 
+\vspace*{-30pt}
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_1/generic_ftir.pdf}
@@ -325,7 +315,7 @@ The reason why the infrared region of light is of specific relevance is because 
 \\
 The absorption at specific frequencies allows for the identification of compounds present in the sample. The most common species that are identified with FTIR are organic molecules, but it is also possible to detect inorganic compounds. Thanks to its sensitivity to the shape of the molecular bonds this spectroscopy technique also allows for the differentiation of structural and geometric isomers, and the determination of molecular orientations in polymers and solutions.
 \\
-When a molecule interacts with a photon of infrared radiation, an energy equal to the difference between two quantized vibrational levels is absorbed. The resulting vibration can range from just the relative movement between two atoms to coupled vibrations of an entire molecule. In addition, the overall transition must change the electric dipole moment of the molecule, when this occurs, the vibration is said to be “IR active”.
+When a molecule interacts with a photon of infrared radiation, an energy equal to the difference between two quantized vibrational levels is absorbed. The resulting vibration can range from just the relative movement between two atoms to coupled vibrations of an entire molecule. In addition, the overall transition must change the electric dipole moment of the molecule, when this occurs, the vibration is said to be “IR active” \cite{gaffneyFourierTransformInfrared2012}.
 \\
 Here are some examples of some common organic vibrational modes with the relative frequencies:
 
@@ -333,7 +323,7 @@ Here are some examples of some common organic vibrational modes with the relativ
     \centering
     \includegraphics[width = \textwidth]{chapter_1/table_organic_ftir.png}
     \vspace*{-20pt}
-    \caption{A table with the resonant frequencies for some organic compounds.}
+    \caption{A table with the resonant frequencies for some organic compounds. (Gaffney 2012)}
     \label{fig:table_organic}
 \end{figure}
 And here are some characteristic vibrational frequencies for some inorganic polyatomic ions:
@@ -341,10 +331,10 @@ And here are some characteristic vibrational frequencies for some inorganic poly
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/table_inorganic_ftir.png}
     \vspace*{-10pt}
-    \caption{A table with the resonant frequencies for some inorganic compounds.}
+    \caption{Resonant frequency ranges for some inorganic compounds. (Gaffney 2012)}
     \label{fig:table_inorganic}
 \end{figure}
-A common way to investigate on the surface absorption of a material is with Internal Reflectance Spectroscopy, where the probe beam of IR light is directed to the interface between a material with a high index of refraction and the sample that we want to analyze. Thanks to the angle of incidence of the beam and the difference in refractive indices between the two adjacent materials, the radiation is trapped due to total internal reflection, and bounces many times at the interface. At every reflection an evanescent wave penetrates the surface of the sample, with a penetration depth given by:
+A common way to investigate on the surface absorption of a material is with Internal Reflectance Spectroscopy, where the probe beam of IR light is directed to the interface between a material with a high index of refraction and the sample that we want to analyze. Thanks to the angle of incidence of the beam and the difference in refractive indices between the two adjacent materials, the radiation is trapped due to total internal reflection, and bounces many times at the interface. At every reflection an evanescent wave penetrates the surface of the sample, with a penetration depth given by \cite{averettEffectivePathLength2008}:
 \begin{align}
     d_p=\frac{\lambda}{2\pi n_1\sqrt{\sin^2{\theta_i}-\left(n_2/n_1\right)^2}} \label{eq:pen_depth_wave}
 \end{align}
@@ -356,64 +346,61 @@ A scheme of the setup is presented:
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/internal_reflectance.png}
     \vspace*{10pt}
-    \caption{Scheme of the internal reflectance spectroscopy. }
+    \caption{Scheme of the internal reflectance spectroscopy. (Gaffney 2012)}
     \label{fig:internal_reflectance}
 \end{figure}
 
-[every image taken from FOURIER TRANSFORM INFRARED (FTIR) SPECTROSCOPY]
-
 \section{Contact angle Measurement}
 \label{sec:contact_angle_measurement}
-
-The determination of the properties of the solid surface of different samples is of primary interest in applied sciences, since its importance spans over a wide range of cases. The analysis of the surface energy and wettability of a liquid toward a solid substrate is an effective approach to obtain these surface properties, in particular, contact angle measurement is considered as one of the simplest techniques capable of providing some valid insights in the determination of the surface tension of a solid sample.
+The determination of the properties of the solid surface of different samples is of primary interest in applied sciences, since its importance spans over a wide range of cases \cite{kwokContactAngleMeasurement1999}. The analysis of the surface energy and wettability (i.e. the tendency of one fluid to spread on or adhere to a solid surface) of a liquid toward a solid substrate is an effective approach to obtain these surface properties, in particular, contact angle measurement is considered as one of the simplest techniques capable of providing some valid insights in the determination of the surface tension of a solid sample.
 \\
-This technique is based on the experimental measurement of the contact angle of a liquid drop placed on top of a solid substrate. This kind of measurement is typically done by a machine that drops a fixed amount of liquid on the sample, and then takes a photo of the drop. The angle formed between the liquid-vapor and the liquid-solid interface at the intersection is then measured from the picture.
+This technique is based on the experimental measurement of the contact angle of a liquid drop placed on top of the surface of a solid. This kind of measurement is typically done by a machine that drops a fixed amount of liquid on the sample, and then takes a photo of the drop. The angle formed between the liquid-vapor and the liquid-solid interface at the intersection is then measured from the picture.
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_1/droplet_contact_angle.png}
     \vspace*{10pt}
-    \caption{Contact angle formed by the liquid spreads over the surface. }
+    \caption{Contact angle formed by the droplet of liquid that spreads over the surface. (He 2004 \cite{heContactAngleHysteresis2004})}
     \label{fig:contact_angle_example}
 \end{figure}
-The value of the contact angle is expected to be a characteristic property of a given surface in a given environment, since it is determined from the energy balance between the three equilibrium interfacial tensions, as stated by the Young’s equation:
+The value of the contact angle is expected to be a characteristic property of a given surface in a given environment, since it is determined from the energy balance between the three equilibrium interfacial tensions, as stated by the Young's equation \cite{youngEssayCohesionFluids1805}:
 \begin{align}
     \gamma_{SG} = \gamma_{SL} + \gamma_{LG} \cos\theta \label{eq:young_equation}
 \end{align}
 where $\theta$ represents the measured contact angle, $\gamma_{LG}$, $\gamma_{SG}$ and $\gamma_{LS}$ respectively symbolize the liquid-vapor, solid-vapor and solid-liquid interfacial tensions.
 \\
-The Young’s equation, though, is valid only under very strict conditions; the need of a rigid, flat, nonreactive, homogeneous, smooth, and nonporous solid surface makes clear that its applicability is not always extended to real, non-ideal, surfaces.
+The Young's equation, though, is valid only under very strict conditions; the need of a rigid, flat, nonreactive, homogeneous, smooth, and nonporous solid surface makes clear that its applicability is not always extended to real, non-ideal, surfaces \cite{kwokMeasuringInterpretingContact1998}.
 \\
-There are no general criteria yet that state how smooth a solid surface must be to neglect the effects caused by the roughness on the contact angle. It is, therefore, very important to prepare solid surfaces as smooth as possible to fall under the conditions of applicability of the Young’s equation. To make the experimental measurements easier, pure liquids are always used, mixtures and solutions are avoided since they would inevitably introduce complications due to different interactions between the surface and the various phases of the fluid [Contact angle measurement].
+There are no general criteria yet that state how smooth a solid surface must be to neglect the effects caused by the roughness on the contact angle. It is, therefore, very important to prepare solid surfaces as smooth as possible to fall under the conditions of applicability of the equation. To make the experimental measurements easier, pure liquids are always used, mixtures and solutions are avoided since they would inevitably introduce complications due to different interactions between the surface and the various phases of the fluid.
 \\
-For all these reasons, the sessile drop technique usually used to measure the contact angle, typically yields an accuracy no better than $\pm 2^\circ$.
+For all these reasons, the sessile drop technique usually used to measure the contact angle, typically yields an accuracy no better than $\pm 2^\circ$ \cite{kwokContactAngleMeasurement1999}.
 
-\section{XPS [EVERYTHING TAKEN FROM THE HANDBOOK OF XPS]}
+\section{XPS}
 \label{sec:xps}
-X-ray photoelectron spectroscopy (XPS) is a powerful, surface sensitive, quantitative spectroscopy technique based on the photoelectric effect.
+X-ray Photoelectron Spectroscopy (XPS) is a powerful, surface sensitive, quantitative spectroscopy technique based on the photoelectric effect.
 \\
-The spectroscopy is performed by irradiating a sample with monochromatic x-ray photons and by analyzing the kinetic energy of electrons that are being emitted. The x-rays have a penetrating power of around 1-10 micrometers.
+The spectroscopy is performed by irradiating a sample with monochromatic X-ray photons and by analyzing the kinetic energy of electrons that are being emitted. The X-rays have a penetrating power of around 1-10 micrometers \cite{moulderHandbookXrayPhotoelectron1992}.
 \\
-The kinetic energy of the photons is given by the Einstein’s photoelectric equation:
+The kinetic energy of the photons is given by the Einstein's photoelectric equation \cite{einsteinHeuristicPointView1967}:
 \begin{align}
     \mathrm{KE}=h\nu-\mathrm{BE}-\phi_s \label{eq:einstein_ph_eq}
 \end{align}
-Where $\nu$ is the frequency of the photons, BE is the biding energy of the core electron in the material and $\phi_s$ is the work function of the spectrometer. The work function is defined as the difference between the fermi energy and the vacuum energy, i.e. the minimum energy needed to extract electrons from a material. 
+Where $\nu$ is the frequency of the photons, BE is the biding energy of the core electron in the material and $\phi_s$ is the work function of the spectrometer. The work function is defined as the difference between the Fermi energy and the vacuum energy, i.e. the minimum energy needed to extract electrons from a material. 
 \\
-Other than directly ionized electrons, the so called “Auger electron” are emitted, due to the relaxation of the ions that are created after the first photoemission. Therefore, in general, photoionization leads to two emitted electrons:
+Other than directly ionized electrons, the so-called “Auger electrons” \cite{augerAugerEffect1975} are emitted, due to the relaxation of the ions that are created after the first photoemission. Therefore, in general, photoionization leads to two emitted electrons:
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.6\textwidth]{chapter_1/auger_electrons.png}
     \vspace*{0pt}
-    \caption{Diagram of the photoelectric process (top) and the Auger process (bottom). }
+    \caption{Diagram of the photoelectric process (Top) and the Auger process (Bottom). (Moulder 1978)}
     \label{fig:auger_photoelectric}
 \end{figure}
-Even though the penetration depth of x-ray photons is in the order of microns, electrons interact much more strongly with matter. Consequently, only electrons generated within a few Angstroms of the surface can escape without losing energy.
+Even though the penetration depth of X-ray photons is in the order of microns, electrons interact much more strongly with matter. Consequently, only electrons generated within a few Angstroms of the surface can escape without losing energy \cite{wattsIntroductionSurfaceAnalysis2003}.
 \\
 Due to the extreme surface sensitivity, the samples must be prepared before the measurements, usually by washing it with an appropriate solvent or by removing the first monolayers of the material with ion etching.
 \\
-To increase the number of electrons that can reach the detector after the emission and to decrease the concentration of adsorbed species on the sample, the photoemission is performed in ultra-high vacuum (UHV) with pressures of the order of $10^{-7} \: Pa$.
+To increase the number of electrons that can reach the detector after the emission and to decrease the concentration of adsorbed species on the sample, the photoemission is performed in ultra-high vacuum (UHV) with pressures of the order of $10^{-7} \: Pa$ \cite{wattsIntroductionSurfaceAnalysis2003}.
 \\
-A typical XPS spectra will be constituted by different kind of lines, such as:
+A typical XPS spectra will be constituted by different kind of lines, such as \cite{moulderHandbookXrayPhotoelectron1992}:
 \begin{itemize}
     \item Photoelectron lines.
     \item Auger lines.
@@ -425,14 +412,12 @@ A typical XPS spectra will be constituted by different kind of lines, such as:
 \end{itemize}
 \subsection{Chemical effects in XPS}
 \label{subsec:chemical_eff_xps}
-One of the most useful effects of XPS is its sensitivity to the chemical environment of the atoms detected. Some characteristics of peaks like intrinsic broadening and spin-orbit splitting are all independent of the chemical environment of the atoms, while, in contrast, the difference in screening caused by different oxidation states can lead 
-\\
-to a shift in the binding energy of a core electron.
+One of the most useful effects of XPS is its sensitivity to the chemical environment of the atoms detected. Some characteristics of peaks like intrinsic broadening and spin-orbit splitting are all independent of the chemical environment of the atoms, while, in contrast, the difference in screening caused by different oxidation states can lead to a shift in the binding energy of a core electron \cite{wattsIntroductionSurfaceAnalysis2003}.
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.4\textwidth]{chapter_1/chemical_shift.png}
     \vspace*{-10pt}
-    \caption{Differences in the energies of C1s peaks in a PET molecule. }
+    \caption{Differences in the energies of C1s peaks in a PET molecule. \cite{mitchellXPSChemicalShift2020}}
     \label{fig:chemical_shift}
 \end{figure}
-
+The presence of multiple peaks of a core energy level can suggest the presence of different type of bonds formed by that element, and can be used to identify molecules and chemical species.

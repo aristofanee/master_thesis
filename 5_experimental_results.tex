@@ -11,9 +11,10 @@ Here are presented the FTIR spectra of a raw, ground and polished sample.
     \caption{FTIR spectra.}
     \label{fig:ftir_plot}
  \end{figure}
- As already said in Chapter~\ref{fig:ftir_issues} the differences in amplitude is not relevant for a measurement but only the position and presence of transmission dips. 
+
+As already said in Chapter~\ref{fig:ftir_issues} the differences in amplitude are not relevant but only the position and presence of transmission dips. 
 \\
-From Figure~\ref{fig:table_inorganic} we can identify that the two major peaks present in the spectra, at $1000 \:cm^{-1} $and $780 \:cm^{-1}$, respectively corresponds to \ce{SiO2} and \ce{SiO3} compounds, obviously present in glass.
+From Figure~\ref{fig:table_inorganic} we can identify that the two major peaks present in the spectra, at $1000 \:cm^{-1} $and $780 \:cm^{-1}$, respectively corresponds to \ce{SiO2} and \ce{SiO3} compounds, that are the main constituent in silica glass.
 \\
 \begin{figure}[H]
     \centering
@@ -23,12 +24,12 @@ From Figure~\ref{fig:table_inorganic} we can identify that the two major peaks p
     \label{fig:ftir_zoom_plot}
  \end{figure}
 
-The small dip at $1173 \:cm^{-1}$, that can be seen more clearly in Figure~\ref{fig:ftir_zoom_plot}, is associated to \ce{C-O} stretching and could be caused by carbonaceous compounds that are present on the surface as residues from the cutting process. The absorption, in fact, disappears for the ground and polished sample, showing that the contamination came from manufacturing, and was then removed with our procedures.
+The small dip at $1173 \:cm^{-1}$, that can be seen more clearly in Figure~\ref{fig:ftir_zoom_plot}, is associated to \ce{C-O} stretching \cite{chunliwang991FTIRFunctionalGroup2021} and could be caused by carbonaceous compounds that are present on the surface as residues from the cutting process \cite{kohlerQuantificationCarbonicContamination2021}. The absorption, in fact, disappears for the ground and polished sample, showing that the contamination came from manufacturing, and was then removed with our procedures.
 \\
 This is in line from what has already been found here [paper robert kohler].
 
 \section{Contact Angle Measurement}
-Contact angle measurements were also performed on the raw and on a polished sample. The results are presented in the next figure.
+Contact angle measurements were also performed on the raw and on a polished sample. The results are presented in the Figure~\ref{fig:contact_angle_raw_polished}.
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_5/others/contact_angle.pdf} 
@@ -42,7 +43,7 @@ Contact angle values are also influenced by the roughness of the surface, this c
 
 \section{XPS}
 \label{sec:xps_results}
-XPS analyses was done to confirm the presence of the contaminants with a more precise technique, check for species that are not easily detectable by LIBS and to see if chemical shift is present in the spectra of aluminum and silicon. This would imply the formation of new chemical species during the polishing phase.
+XPS analyses was done to confirm the presence of the contaminants with a more precise technique, check for species that are not easily detectable by LIBS and to see if chemical shift is present in the spectra of aluminum, silicon and carbon. This would imply the formation of new chemical species during the polishing phase.
 \\
 The measurements were performed on raw and polished samples. The results are presented in the following figures.
 \\
@@ -104,7 +105,7 @@ None of the contaminants were absent from the measurement of the samples polishe
    \caption{Carbon concentration measured by XPS. }
    \label{fig:c_xps}
 \end{figure}
-The main carbon peak in LIBS is at $165 \: nm$, outside the range of our detector. For this reason the use of XPS to measure the concentration of this element was particularly important.
+The most intense carbon peak in LIBS is at $165 \: nm$, outside the range of our detector. For this reason the use of XPS to measure the concentration of this element was particularly important.
 \\
 Figure~\ref{fig:c_xps} shows a concentration of carbon both in the raw and the polished samples. The presence of carbonaceous compounds on the surfaces of the raw sample was already partially confirmed by the FTIR analysis in the form of a \ce{C-O} absorption peak (Chapter~\ref{sec:ftir_results}), while no traces were found in the ground and polished samples with the same technique. This could suggest that the nature of the carbon contaminants found on the raw and processed glass surfaces are different.
 \\
@@ -137,9 +138,8 @@ For what regards these elements, no new peak caused by chemical shift has been f
    \label{fig:xps_shift_c}
 \end{figure}
 
-In Figure~\ref{fig:xps_shift_c} are present peaks that could be associated with the effect of chemical shift, however, a more probable explanation is the presence of potassium on the sample. This is because the chemical shift corresponding to those energies is associated with \ce{C-F} bonds, nonetheless, no traces of fluorine have been found from any analysis we performed.
+In Figure~\ref{fig:xps_shift_c} are present peaks that could be associated with the effect of chemical shift, however, a more probable explanation is that they are the 2p peaks of potassium. This is because the chemical shift that would correspond to those energies is associated with \ce{C-F} bonds, nonetheless, no traces of fluorine have been found from any analysis we performed.
 
-In Figure~\ref{fig:xps_shift_c} at first glance the presence of chemically shifted carbon peaks could be implied. However, in that energy range, the peaks associated with the 2p level of potassium are found.
 \section{LIBS}
 \label{sec:LIBS_measurements}
 
@@ -152,7 +152,7 @@ In the expression there are three different parameters that can influence the be
 \\
 The ablation depth should be the same for every measurement we performed, as it only depends on the laser parameters and on the target material, both of which were constant for all the experiments.
 \\
-To estimate this parameter we have performed some depth analyses with a 3D microscope to a pure silica sample that was ablated five different times with the same laser energy of $15 \: mJ$ but with an increasing number of pulses, from 5 to 25.
+To estimate this parameter we have performed some depth analyses with a 3D microscope on a pure silica sample that was ablated five different times with the same laser energy of $15 \: mJ$ but with an increasing number of pulses, from 5 to 25.
 
 \begin{figure}[H]
     \centering
@@ -167,7 +167,7 @@ For the first two peaks, the ones corresponding to 5 and 10 pulses, the depth me
 \\
 The two other parameters, $C_0$ and $D$, strictly depend on the specific characteristics of the diffusion.
 \\
-The of magnitude for $D$ in glasses can be found in literature; in [paper aluminum in glass] there is an estimation of the diffusion coefficient of gaseous metallic aluminum into the amorphous silica layer that forms on top of silicon wafers. The value is given by the following equation:
+The order of magnitude for $D$ in glasses can be found in literature; in Kawagishi et al. (1998)\cite{rathoreProceedingsSymposiumInterconnect1998} there is an estimation of the diffusion coefficient of gaseous metallic aluminum into the amorphous silica layer that forms on top of silicon wafers. The value is given by the following equation:
 \begin{align}
     D/m^2s^{-1} = 1.83 \cdot 10^{-13}\exp \left(\frac{-1.12 \cdot 10^5}{RT}\right) \label{eq:diffiusion_coef_aluminum}
 \end{align}
@@ -177,7 +177,7 @@ Regarding $C_0$, for the fitting procedure to make sense, the value of the param
 \\
 For the actual fitting, we employed a simple algorithm. We defined two arrays with the possible values of $D$ and $C_0$: for $D$ we constructed a logarithmic space between $10^{-20}$ and $10^{-7}$, while for $C_0$ we built a linear space between the minimum and two times the maximum the measured concentration of the element we were trying to fit.
 \\
-We then constructed another array with all the possible combinations between the two parameters, and, finally, we identified the couple that resulted in the least round mean square (rms) of the difference between the theoretical function and the data.
+We then constructed another array with all the possible combinations between the two parameters, and, finally, we identified the couple that resulted in the least round mean square of the difference between the theoretical function and the data.
 \\
 The whole procedure should be enough to perform qualitative comparisons between different species.
 
@@ -187,7 +187,7 @@ The whole procedure should be enough to perform qualitative comparisons between 
 
 \subsection{Concentration of the Polishing Solution}
 \label{subsec:conc_results}
-In the next section we will display all the collected data. Initially, for each polish concentration, a qualitative comparison of the notable wavelength ranges between the spectra of the raw, ground and polished sample is shown. Secondly, the plots with the measured contaminants concentrations are presented. The diffusion parameters fitted with the method proposed in the previous section are also shown. Lastly, we will exhibit the differences between the measured contaminants relatively to the polish suspension concentration.
+In the next section we will display all the collected data. Initially, for each polish concentration, a qualitative comparison of the notable wavelength ranges between the spectra of the raw, ground and polished (2 hrs) sample is shown. Secondly, the plots with the measured contaminants concentrations are presented. The diffusion parameters fitted with the method proposed in the previous section are also shown. Lastly, we will exhibit the differences between the measured contaminants relatively to the polish suspension concentration.
 \\
 The solutions with different concentrations and water types were also distinguished by a different level of pH, in Table~\ref{table:solution_ph} are shown the corresponding value. The values were all measured using litmus paper.
 
@@ -204,7 +204,7 @@ The solutions with different concentrations and water types were also distinguis
    \end{table}
 \subsubsection{Polish Concentration: 5pc}
 \label{subsubsec:5pc}
-\vspace*{-25pt}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_5/LIBS/spectra_comparison/tap_5pc_first.pdf} 
@@ -212,7 +212,7 @@ The solutions with different concentrations and water types were also distinguis
     %\label{fig:3d_microscope_craters}
  \end{figure}
 
-\vspace*{-68pt}
+\vspace*{-71pt}
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_5/LIBS/spectra_comparison/tap_5pc_second.pdf} 
@@ -220,7 +220,7 @@ The solutions with different concentrations and water types were also distinguis
     %\label{fig:3d_microscope_craters}
  \end{figure}
 
-\vspace*{-68pt}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_5/LIBS/spectra_comparison/tap_5pc_third.pdf} 
@@ -228,7 +228,7 @@ The solutions with different concentrations and water types were also distinguis
     %\label{fig:3d_microscope_craters}
  \end{figure}
 
- As it can be seen from the plots, the polished sample can be easily distinguished from the other two spectra; in particular, the aluminum peaks are present only in the polished sampled, while the other elements are found also in the raw and ground spectra. Due to the lower sensitivity of the detector in the visible range, the sodium peak cannot be easily distinguished from the noise floor. Its presence is expected since, as shown in Table~\ref{table:water_composition}, a non-negligible quantity is dissolved in the water. Moreover, sodium has a low LOD and should be easily detectable with LIBS.
+ As it can be seen from the plots, the polished sample can be easily distinguished from the other two spectra; in particular, the aluminum peaks are present only in the polished sampled, while the other elements are found also in the raw and ground spectra. Due to the lower sensitivity of the detector in the visible range, the sodium peak cannot be easily distinguished from the noise floor. Its presence is expected since, as shown in Table~\ref{table:water_composition}, a non-negligible quantity is dissolved in the water. Moreover, sodium has a low LOD \cite{mansooriQuantitativeAnalysisCement2011} and should be easily detectable with LIBS.
 \\
 For the next series of graphs, only the time evolution of the polishing phase is shown.
 \begin{figure}[H]
@@ -311,17 +311,15 @@ For the next series of graphs, only the time evolution of the polishing phase is
     %\caption{Width and depth measurements of LIBS craters performed with a 3D microscope. The peaks are ordered from left to right accordingly to the number of pulses.}
     %\label{fig:3d_microscope_craters}
  \end{figure}
-    \vspace{-40pt}
+    \vspace{-44pt}
  \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_5/LIBS/data_fit/fit_tap_15pc_Al.pdf} 
     %\caption{Width and depth measurements of LIBS craters performed with a 3D microscope. The peaks are ordered from left to right accordingly to the number of pulses.}
     %\label{fig:3d_microscope_craters}
  \end{figure}
-
  \vspace{-20pt}
-
- As can be seen from Figure~\ref{fig:fit_tap_15pc}, in this case, the data could be fairly fitted by the algorithm exposed in Chapter~\ref{subsec:data_fitting}. The diffusion coefficient estimated is much greater that the ones found in literature [cit acqua]. This could be caused by the value of $d_a$, that was heavily approximated. However, this set of data was the only one that had this result.
+ As can be seen from Figure~\ref{fig:fit_tap_15pc}, in this case, the data could be fairly fitted by the algorithm exposed in Chapter~\ref{subsec:data_fitting}. The diffusion coefficient estimated ($3.72 \cdot 10^{-15}\: m^2s^{-1}$) is much greater that the ones found in literature. This could be caused by the value of $d_a$ being heavily approximated. In any case, this set of data was the only one that could be fitted at all.
 
  \vspace{-20pt}
  \begin{figure}[H]
@@ -330,13 +328,10 @@ For the next series of graphs, only the time evolution of the polishing phase is
     \vspace*{-30pt}
     \caption{Comparison of the concentration values of the major contaminants as a function of the polishing time, for the glass polished with a 15pc suspension.}
     \label{fig:tap_elem_15pc}
+    \vspace*{-10pt}
  \end{figure}
 
  The evolution of the concentrations of the elements is similar to the case presented in the previous section, with only slightly less variation.
-
-
-
-
 
 
 
@@ -522,22 +517,22 @@ A possible hypothesis is that the major cause of the contamination could be caus
 \\
 High polishing times partially interfere with the process by removing some of the defects that were generated during the previous stage, and, consequently, decreasing the detected concentration of contaminants.
 \\
-It is not fully clear why the concentration of the polish does not seem to have a definite influence on the process (Figure~\ref{fig:tap_conc_comp_al}). A higher density of polishing agent should impact both the concentration of external elements inside the silanol layer, and should also increase the MRR (material removal rate), therefore affecting the speed of which the cracks are being polished from the surface.
+It is not fully clear why the concentration of the polish does not seem to have a definite influence on the process (Figure~\ref{fig:tap_conc_comp_al}). A higher density of polishing agent should impact both the concentration of external elements inside the silanol layer, and should also increase the MRR, therefore affecting the speed of which the cracks are being polished from the surface.
 \\
 It is notable that in XPS data (Chapter~\ref{sec:xps_results}), the concentration of aluminum seems to instead increase as the polished concentration increased. This could suggest that the polish concentration is more relevant for the processes that happen at the outermost layers of the surface, that are the ones measured by XPS.
 \\
-Another clear result is that using distilled water does not prevent at all the introduction of mineral impurities into the sample. The presence of these species in the tools used for the processes (measured in Chapter~\ref{subsec:measurements_pol_components}) is apparently enough to contaminate the glass with the same magnitude as using tap water as solvent. As a matter of fact, distilled water seems to indirectly favor the contamination from the polishing agent, as shown in Figure~\ref{fig:water_comp_al}, probably caused by the increase in pH level for the solution formed in distilled water (Table~\ref{table:solution_ph}).
+Another clear result is that using distilled water does not prevent at all the introduction of mineral impurities into the sample. The indirect presence of these species in the tools used for the processes (measured in Chapter~\ref{subsec:measurements_pol_components}) is apparently enough to contaminate the glass with the same magnitude as using tap water as solvent. As a matter of fact, distilled water seems to indirectly favor the contamination from the polishing agent, as shown in Figure~\ref{fig:water_comp_al}, probably caused by the increase in pH level for the solution formed in distilled water (Table~\ref{table:solution_ph}).
 
-\chapter{Conclusions and Future Developments}
+\chapter*{Conclusions and Future Developments}
 \label{ch:conclusions_and_dev}
 For what regards the use of LIBS for analyzing glass surfaces, its versatility and speed makes this experimental technique an appropriate choice for this type of measurements. An analogous investigation carried out with a different spectroscopy, for example XPS, would have taken way longer times and would have required many more samples. The possibility of interrupting the processing of the glass, instantly taking the measurements, and resuming the polishing of the sample right away, cannot be granted by any other analysis method. As an example, the XPS measurement we presented in this thesis required a different sample for every polishing parameter that we were investigating, and the results took few weeks to be obtained.
 \\
-The main issue of LIBS stands in its high variability, small differences in the characteristics of the laser induced plasma can have non-uniform impact on the emission, that are not directly correlated with differences in concentrations of the elements in the sample. This problem was even more evident in our case due to the fact that only one pulse per measurement was performed, and by the fact that the laser wavelength in the CORALIS apparatus was not ideal to investigate glass samples. The inconsistencies were partially mitigated by the use of the analysis procedure presented in Chapter~\ref{subsec:analysis_workflow}, that allowed to estimate the plasma parameters and to simulate the emission accordingly. However, any further investigation should still be carried out with a more appropriate laser wavelength.
+The main issue of LIBS stands in its high variability, small differences in the characteristics of the laser induced plasma can have non-uniform impact on the emission, that are not directly correlated with differences in concentrations of the elements in the sample. This problem was even more evident in our case due to the fact that only one pulse per measurement could be performed, and by the fact that the laser wavelength in the CORALIS apparatus was not ideal to investigate glass samples. The inconsistencies were partially mitigated by the use of the analysis procedure presented in Chapter~\ref{subsec:analysis_workflow}, that allowed to estimate the plasma parameters and to simulate the emission accordingly. However, any further investigation should still be carried out with a more appropriate laser wavelength.
 \\
 \\
 Regarding the glass processing phase, more automatized polishing and grinding methods should be employed to reduce variability caused by human handling. Specifically, one of the main issues stood in the method used to deliver the polishing suspension on the polishing cloth. We provided the slurry on the cloth whenever the latter started to present signs of dryness, the frequency of the delivery varied a lot from session to session. Even though it probably did not influence the results, it was a variable that should be more controlled in future similar analyses.
 \\
-The results related to the use of distilled water shown that the water itself is not the only source of mineral contaminants. From a point of view of future researches, specifically cleaned instruments and polishing agents with high purity must be utilized in order to ensure the absence of any contamination source. Under a practical point of view, we showed that even by using distilled water for the polishing suspension and to clean the instrumentation, and by employing factory-new polishing cloths and grinding paper, contamination could not be avoided at all. Tap water is therefore the most reasonable choice.
+The results related to the use of distilled water shown that the water itself is not the only source of mineral contaminants. From a point of view of future researches, specifically cleaned instruments and polishing agents with high purity must be utilized in order to ensure the absence of any contamination source. Under a practical point of view, we showed that even by using distilled water for the polishing suspension and to clean the instrumentation, and by employing factory-new polishing cloths and grinding paper, contamination could not be avoided at all. Tap water is therefore still the most reasonable choice.
 \\
 \\
 Lastly, any further investigation on this topic should focus on developing a theoretical model that could make quantitative predictions in accordance to the measured data.

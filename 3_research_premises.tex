@@ -18,9 +18,9 @@ After having thought about the parameters we could vary, we settled on a collect
 \begin{itemize}
     \item Polishing time: by increasing the contact time we expect to see changes in the amount of concentration found at the surface.
     \item Polishing agent: expecting that the physical and chemical properties of different agents could have a different interaction with the glass. The two main polishing agents used in optics manufacturing are aluminum oxide (\ce{Al2O3}) and cerium oxide (\ce{CeO2}). The latter also usually contains traces of other elements like carbon or lanthanum.
-    \item Type of water: tap water could impact the process by introducing new contaminants. Also, tap and distilled water can differ for chemical properties too, the pH of tap water is usually around 7.4 and distilled water is slightly more acidic with a pH of 5.7, due to the presence of a small amount of carbon dioxide that gets instantly dissolved into the water from the atmosphere [ph water paper].
+    \item Type of water: tap water could impact the process by introducing new contaminants. Also, tap and distilled water can differ for chemical properties too, the pH of tap water is usually around 7.4 and distilled water is slightly more acidic with a pH of 5.7, due to the presence of a small amount of carbon dioxide that gets instantly dissolved into the water from the atmosphere \cite{kulthananPHWaterVarious2013}.
     \item Polish concentration: the common concentrations used in optic manufacturing are between 5\% to 30\% in mass, where the percentage indicates the fraction of the mass of the polishing agent relative to the total weight of the slurry. Concentration influences both the mechanical properties of the solution, by physically having more particles interacting with the surface, and the chemical ones, by changing the alkalinity.
-    \item Type of glass: glasses with different compositions are used in optics because their refractive index is strongly dependent on the density of the material and by introducing different and heavier elements in the glass, the manufacturer can tune its optical properties to the desired ones. Having a high concentration of different elemental species inside the glass could change the parameters that regulate diffusion at the surface.
+    \item Type of glass: glasses with different compositions are used in optics because their refractive index is strongly dependent on the density of the material \cite{ritlandRelationRefractiveIndex1955} and by introducing different and heavier elements in the glass, the manufacturer can tune its optical properties to the desired ones. Having a high concentration of different elemental species inside the glass could change the parameters that regulate diffusion at the surface.
 \end{itemize}
 
 \section{Theoretical Prediction}
@@ -96,6 +96,7 @@ This discussion is relevant because, if the predominant physical mechanism causi
 
 \chapter{Experimental Setup}
 \label{ch:experimental_setup}
+In this chapter are described the setups for the various experimental environments we employed for the research.
 
 
 \section{LIBS}
@@ -108,7 +109,7 @@ As already anticipated in Chapter~\ref{sec:LIBS}, LIBS setup components are mult
 \\
 This analysis technique needs active elements capable of providing the optical energy needed for plasma formation, and a collection of optical and electronic elements capable of collecting and analyzing emitted light from the plasma.
 \\
-Due to the large field of application of this technique [Source of the different applications], LIBS setups are expected to vary both in size (static vs portable) and complexity.
+Due to the large field of application of this technique, LIBS setups are expected to vary both in size (static vs portable) and complexity.
 \\
 Generally, LIBS setups all share the same main elements that are listed below:
 \begin{enumerate}
@@ -119,28 +120,27 @@ Generally, LIBS setups all share the same main elements that are listed below:
     \item The detection system, capable of spectrally dispersing the collected light and measuring it using a digital sensor.
     \item A computer to control each previously cited element and to create the final spectrum.
 \end{enumerate}
-The LIBS measurements presented in this thesis have all been carried out using the same apparatus, a custom-made version of the CORALIS system by Lasertechnik Berlin with the following characteristics.
+The LIBS measurements presented in this thesis have all been carried out using the same apparatus, a custom-made version of the CORALIS system by Lasertechnik Berlin \cite{LTBLasertechnikBerlin} with the characteristics listed in the next sections.
 
 \subsubsection{Laser Source}
 \label{subsubsec:laster_source}
 A solid state, Nd:YAG laser source has been employed in this setup. The system gave us the possibility of tuning the laser pulse energy from less than $1 \: mJ$,  to more than 100.
 \\
-The Nd:YAG laser was operated at its fundamental wavelength of $1064 \: nm$ and in the Q-Switching regime, in order to achieve the high enough pulse power capable of igniting the plasma. This pulsed laser regime gives a typical duration of each pulse in the order of $5-10\: ns$ [Handbook of LIBS (other sources are possible)] and in the case of the CORALIS system the machine can provide up to 20 pulses per second, with a repetition rate of 20 Hz.
+The Nd:YAG laser was operated at its fundamental wavelength of $1064 \: nm$ and in the Q-Switching regime, in order to achieve the high enough pulse power capable of igniting the plasma. This pulsed laser regime gives a typical duration of each pulse in the order of $5-10\: ns$ and in the case of the CORALIS system the machine can provide up to 20 pulses per second, with a repetition rate of 20 Hz.
 
 \subsubsection{Spectrometer}
 \label{subsubsec:spectrometer}
 The choice of the spectrometer is also dependent on the type of application and can range from the use of very simple and inexpensive components, such as line filters capable of monitoring a single predetermined wavelength, to sophisticated spectrographs allowing for the simultaneous analysis of a large spectral region.
 \\
-The commercially available CORALIS has only one echelle spectrometer that operates in the near-UV range (from 190 to $430 \: nm$) and has a spectral resolution that spans from 13 to $35 \: pm$, with a sensitivity of [].
+The commercially available CORALIS has only one echelle spectrometer that operates in the near-UV range (from 190 to $430 \: nm$) and has a spectral resolution that spans from 13 to $35 \: pm$.
 \\
-The modified model that we employed has an additional spectrometer that operates in the visible range (from 405 to $802\: nm$) with a spectral resolution of around $4 \: pm$, with a sensitivity of [].
-[we are not sure on the value of the resolution of the Visible spectrometer, and we do not have yet the values for the sensitivity]
+The modified model that we employed has an additional spectrometer that operates in the visible range (from 405 to $802\: nm$) with a spectral resolution of around $4 \: pm$.
 \\
 The overall spectral region that we could analyze was therefore from 200 to $800 \: nm$.
 
 \subsection{Parameters Chosen}
 \label{subsec:parameters_chosen}
-The choice of the LIBS parameters is a very crucial step in the analysis process since the quality of the results obtained from the measurements is strongly dependent on their values. In general, there are no parameters that are universally optimal, and their value changes based on the type of material, the geometry of the surface, and the element species that are being investigated.
+The choice of the LIBS parameters is a crucial step in the analysis process since the quality of the results obtained from the measurements is strongly dependent on their values. In general, there are no parameters that are universally optimal, and their value changes based on the type of material, the geometry of the surface, and the element species that are being investigated.
 \\
 In order to arrive at the final values we employed, a thorough experimental process has been carried out.
 \\
@@ -155,23 +155,23 @@ The parameters on which we had full choice were the sequent:
     \item Number of laser pulses per measurement.
     \item Number of cleaning pulses before the measurement.
 \end{enumerate}
-The choice process for the parameters started by analyzing an NZK-7 glass sample from Schott [need the citation]. The glass sample did not undergo any post-processing phase, like grinding or polishing. From now on we will refer to this type of sample as “RAW”.
+The choice process for the parameters started by analyzing an NZK-7 glass sample from Schott \cite{NZK7SCHOTTAdvanced}. The glass sample did not undergo any post-processing phase, like grinding or polishing. From now on we will refer to this type of sample as “raw”.
 \\
 The first parameter on which we focused our attention was the laser pulse energy. 
 \subsubsection{Pulse Energy}
 \label{subsubsec:pulse_energy}
-Silica glass absorbs radiation very inefficiently in the frequency range of the laser of the apparatus we used, as it is clear from Figure~\ref{fig:glass_transmittance} at $1064 \: nm$ the glass transmittance is basically 100\%. 
+All types of silica-based glass absorbs radiation very inefficiently in the frequency range of the laser of the apparatus we used, as it is clear from Figure~\ref{fig:glass_transmittance} at $1064 \: nm$ the glass transmittance is basically 100\%. 
 \begin{figure}[H]
     \centering
     \includegraphics[width = 0.7\textwidth]{chapter_3/tests_graphs/glass_transmittance.png} 
-    \caption{Transmittance of N-BK7 glass.}
+    \caption{Transmittance of N-BK7 glass. \cite{HttpsWwwSchott}}
     \label{fig:glass_transmittance}
  \end{figure}
  Also, in general, the lack of surface features due to polishing and grinding reduces even more the possibility of absorption. To achieve the conditions for breakdown at the surface, a high laser pulse energy must be utilized.
  \\
 Tests were carried out from a lower value of $6 \:mJ$ to a higher value of $15\: mJ$.
 \\
-In Figure~\ref{fig:test_NZK7_6mj} and Figure~\ref{fig:test_NZK7_6mj_zoom} we can see that we already have a good spectrum even with just $6 mJ$.
+In Figure~\ref{fig:test_NZK7_6mj} and Figure~\ref{fig:test_NZK7_6mj_zoom} we can see that we already have a good spectrum with well-defined peaks even with just $6 mJ$.
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_3/tests_graphs/test_NZK7_6mj.pdf} 
@@ -186,7 +186,7 @@ In Figure~\ref{fig:test_NZK7_6mj} and Figure~\ref{fig:test_NZK7_6mj_zoom} we can
     \caption{$\protect 6 \: mJ$ - (Left) Focus of on the noise. (Right) Focus on the $386 \: nm$ to $398 \: nm$ range.}
     \label{fig:test_NZK7_6mj_zoom}
  \end{figure}
-Focusing on the part of the UV spectral range from $386 \: nm$ to $398 \: nm$, we see that the signal-to-noise ratio ($S.N.R$) is about 340 (the value is obtained by dividing the counts of the silicon I peak at $390.55 \: nm$ by the RMS of the noise calculated from $350 \: nm$ to $360 \: nm$).
+In the part of the UV spectral range from $386 \: nm$ to $398 \: nm$, we see that the signal-to-noise ratio ($S.N.R$) is about 340 (the value is obtained by dividing the counts of the silicon I peak at $390.55 \: nm$ by the RMS of the noise calculated from $350 \: nm$ to $360 \: nm$).
 \\
 By increasing the energy value to $10 \: mJ$ we get:
 \begin{figure}[H]
@@ -228,7 +228,7 @@ In the end, therefore, we selected $15 \: mJ$ as the final value with which all 
 \subsubsection{Gate Width and Time Delay}
 \label{subsubsec:gate_width_delay}
 
-To get the values that will give us the most comprehensive plasma spectrum, we decided to perform an analysis called “time evolution”, where the emission spectrum is recorded at various instants in the lifetime of the plasma. To ensure that the plasma parameters, such as electron density ($N_e$) and temperature ($T$), do not vary much within the measurements, in time evolution experiments, the gate width is always set to be equal to half the value of the time delay [jorg’s paper].
+To get the values that will give us the most comprehensive plasma spectrum, we decided to perform an analysis called “time evolution”, where the emission spectrum is recorded at various instants in the lifetime of the plasma. To ensure that the plasma parameters, such as electron density ($N_e$) and temperature ($T$), do not vary much within the measurements, in time evolution experiments, the gate width is always set to be equal to half the value of the time delay \cite{gerhardQuantitativeAnalysesGlass2014}.
 \\
 The evolution was considered starting from a delay time of $0.5\: \mu s$, that corresponds to a gate width of $0.25 \: \mu s$, to a delay of $10 \: \mu s$ and $5 \: \mu s$ for the gate width.
 \\
@@ -278,7 +278,7 @@ The results are presented in Figure~\ref{fig:comparison_deep_scan}.
     \centering
     \includegraphics[width = \textwidth]{chapter_3/tests_graphs/test_NZK7_deep_scan_zoom.pdf} 
     \vspace*{-30pt}
-    \caption[Comparison for consecutive pulses.]{Comparison for consecutive pulses on: (Left) Aluminum peaks around $\protect 395 \: nm$. (Right) Silicon peak at $\protect 390.6 \: nm$. The spectra are normalized with respect to the \ce{Si} peak at $\protect 288 \: nm$}
+    \caption[Comparison for consecutive pulses.]{Comparison for consecutive pulses on: (Left) Aluminum peaks around $\protect 395 \: nm$. (Right) Silicon peak at $\protect 390.6 \: nm$. The spectra are normalized with respect to the \ce{Si} peak at $\protect 288 \: nm$.}
     \label{fig:comparison_deep_scan}
 \end{figure}
 On the left graph the most intense aluminum peaks are shown, while on the right, a nearby silicon peak is shown as a comparison. It is clear that the presence of aluminum cannot be detected after the first laser pulse, underlining its presence only on the surface. 
@@ -296,23 +296,23 @@ As a summary, the parameters chosen were:
 
 \subsection{Analysis Workflow}
 \label{subsec:analysis_workflow}
-Analysis of LIBS data is a crucial step that can be carried out both under a qualitative and a quantitative profile. Qualitative analysis requires much less time and commitment and can be carried out by a simple visual comparison of the measured spectra. It is usually employed when a fast result is needed. However, when a more sophisticated and precise result is sought, quantitative analysis can be utilized to calculate the relative concentrations of the different elemental species that compose the sample.
+Analysis of LIBS data is a crucial step that can be carried out both under a qualitative and a quantitative profile. Qualitative analysis requires much less time and commitment and can be carried out by a simple visual comparison of the measured spectra. It is usually employed when a fast result is needed. However, when a more sophisticated and precise result is sought, quantitative analysis can be utilized to calculate the relative concentrations of the different elemental species that compose the sample \cite{anabitarteLaserInducedBreakdownSpectroscopy2012}.
 \\
 In quantitative analyses, standard samples are usually utilized to calibrate the LIBS measurements. These are pellets prepared with well-defined and known element composition ratios.
 \\
 The technique that we exploited, however, is called “Calibration-free LIBS” and does not require the use of any standard for calibration. It requires instead the knowledge of some technical properties of the apparatus, as the apparatus response over the whole spectral range and the intrinsic width of the spectrometer.
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \textwidth]{chapter_3/analysis_workflow/apparatus_response.png} 
+    \includegraphics[width = 0.7\textwidth]{chapter_3/analysis_workflow/apparatus_response.png} 
     %\vspace*{-30pt}
-    \caption{In the bottom plot of the figure it is shown an example of a typical apparatus response. }
+    \caption{Apparatus response functions of (a) Aryelle Butterfly (visible range) and (b) Mechelle 5000 (Taleb 2021 \cite{talebEchelleSpectrometerCalibration2021})}
     \label{fig:apparatus_response}
 \end{figure}
 In addition, for analysis to be valid, the measured plasma must satisfy the LTE condition.
 \\
 The analysis of the data has been carried out through the use of a program called: “Analyze LTE Plasma Spectra” (Ver. 2.6.6) or “LTEspec” in short.
 \\
-This application is hosted on the servers of the LP3 laboratories of the Université d’Aix-Marseille. A detailed explanation of the working principle of the algorithm behind the software can be found here [Jorg’s Paper].
+This application is hosted on the servers of the LP3 laboratories of the Université d'Aix-Marseille. A detailed explanation of the working principle of the algorithm behind the software can be found in the work by Gerhard et al. (2014)\cite{gerhardQuantitativeAnalysesGlass2014}.
 \\
 In the next section we will describe the passages needed to obtain the quantitative results that will be presented in the later sections.
 \subsubsection{Spectra Preparation}
@@ -340,7 +340,7 @@ The first action we need to undertake is to connect the two graphs in order to o
 \\ 
 Thanks to the fact that the two measured spectra share a portion of the wavelength range, specifically, from 405 to 430 nm, the analysis program will use the two silicon peaks present in this region to normalize the two spectra, rescaling the intensity of the visible one. The usual rescale factor for our measurements is around 6. The visible spectrum must be therefore multiplied by 6 to match the intensities of the peaks between the UV and visible data.
 \\
-Here are the photos of before and after the scaling of the two spectra in the range from 400 to 430 nm, where it can be seen that the peak present at, roughly, 412 nm has been used to fit the visible (red) spectrum to the intensity of the UV (black) spectrum.
+Here are the photos of before and after the scaling of the two spectra in the range from 400 to 430 nm, where it can be seen that the peaks present at $412 \:nm$ have been used to fit the visible (red) spectrum to the intensity of the UV (black) spectrum.
 
 
 \begin{figure}[H]
@@ -352,10 +352,9 @@ Here are the photos of before and after the scaling of the two spectra in the ra
     \subfloat[Vis Spectrum. \label{fig:uv_vis_corr}]{
         \includegraphics[width = 0.45\textwidth]{chapter_3/analysis_workflow/UvVis corrected.png}
     }
-    \caption{The merging point of the two spectra before and after applying the correction and the scale factor. }
+    \caption{The merging point of the two spectra before (left) and after (right) applying the correction and the scale factor. }
     \label{fig:spectra_mergin_point}
 \end{figure}
-
 
 \begin{figure}[H]
     \centering
@@ -365,7 +364,6 @@ Here are the photos of before and after the scaling of the two spectra in the ra
     \label{fig:merged_sepctrum}
 \end{figure}
 
-
 During the merging process, the rescaling factor is not the only applied parameter. As already mentioned, the apparatus itself has a spectral response that is not homogeneous, that varies across the whole range. The spectral response had been measured, and the program can apply the corresponding correction UV and visible spectra. Lastly, other machine-dependent corrections are applied like the apparatus spectral width and the wavelength calibration are applied.
 
 \subsubsection{Spectrum Analysis}
@@ -374,14 +372,14 @@ Once the complete spectrum has been derived, the proper quantitative analysis ca
 
 \paragraph{Electron density and Optical Thickness}
 \label{par:electron_density_opt_thick}
-The first step in the plasma diagnostic process is to select a reference intensity peak from which Stark and Doppler broadening parameters are measured; these are in fact the dominant mechanisms of spectra line broadening in laser induced plasmas [Paper’s 36][maybe cite the chapter of the thesis]. Those values are then used to measure the plasma optical thickness.
+The first step in the plasma diagnostic process is to select a reference intensity peak from which Stark and Doppler broadening parameters are measured; these are in fact the dominant mechanisms of spectra line broadening in laser induced plasmas Chapter~\ref{subsubsec:plasma_parameters}. Those values are then used to measure the plasma optical thickness.
 \\
-Under the assumption of a linear dependance of the Stark width and shift with the electron density, the latter can be derived by measuring the width of a line with a significant Stark shift. A common choice for this estimation is the H-$\alpha$ lines at $656.28\:nm$ [Paper].
+Under the assumption of a linear dependence of the Stark width and shift with the electron density, the latter can be derived by measuring the width of a line with a significant Stark shift. A common choice for this estimation is the H-$\alpha$ lines at $656.28\:nm$ \cite{gerhardQuantitativeAnalysesGlass2014}.
 \\
 In our case the Si I transition at $390.55 \: nm$ has been chosen for both the measurements.
 \paragraph{Plasma Temperature}
 \label{par:plasma_temperature}
-After the determination of the electron density, the plasma temperature is derived from the Boltzmann plot (Chapter~\ref{subsubsec:thermodynamic_eq}) regarding the \ce{Si I} $390.55\:nm$ line and the ionized \ce{Si II} doublet at 385.60 and $386.26\:nm$ [Paper].
+After the determination of the electron density, the plasma temperature is derived from the Boltzmann plot (Chapter~\ref{subsubsec:thermodynamic_eq}) regarding the \ce{Si I} $390.55\:nm$ line and the ionized \ce{Si II} doublet at 385.60 and $386.26\:nm$.
 
 
 \begin{figure}[H]
@@ -396,16 +394,17 @@ After the determination of the electron density, the plasma temperature is deriv
 \paragraph{Plasma Parameter}
 \label{par:plasma_parameter}
 The size of the plasma is derived from interpolating the laser settings present in the metadata of the file, with experimental measurements done at the apparatus, where the size of the plasma was measured over its whole lifetime using a high-speed camera.
+
 \paragraph{Element Search and Relative Concentration Calculation}
 Once an approximate value of the electron density Ne, the plasma temperature T and the optical thickness of the plasma have been measured, it is possible to carry out an automatic search of the element species that are present in the plasma. 
-The spectral lines used for the analysis are selected according to the following criteria [Paper]:
+The spectral lines used for the analysis are selected according to the following criteria \cite{gerhardQuantitativeAnalysesGlass2014}:
 \begin{itemize}
     \item The overlapping of spectral lines has to be avoided.
-    \item The emission intensity must be large enough in order to have a large signal to noise ratio for the selected peaks.
+    \item The emission intensity must be large enough in order to have a large signal-to-noise ratio for the selected peaks.
     \item The lines must have a weak enough optical thickness to have a significant correlation between elemental concentration and line intensity
 \end{itemize}
 
-Here are presented some plots of the elements’ measured lines (in black), versus the expected emission based on the calculated plasma parameters and estimated concentration (in red). The more the fitting is precise, the more the plasma parameters represent valid approximations of the real values.
+Here are presented some plots of the elements' measured lines (in black), versus the expected emission based on the calculated plasma parameters and estimated concentration (in red). The more the fitting is precise, the more the plasma parameters represent valid approximations of the real values.
 
 \begin{figure}[H]
     \centering
@@ -434,7 +433,7 @@ After the elements have been identified, all the plasma parameters are derived a
 \subsubsection{Issues with Oxygen}
 \label{subsubsec:oxygen_issues}
 
-Particular attention must be paid with respect to the measurement of the oxygen concentration. In pure fused silica glass (\ce{SiO2}), oxygen makes up for most of the species in the glass composition, since its stoichiometric contribution is of about 2/3, or roughly 68\% of the total number of atoms. Oxygen atoms are characterized by large gaps between energy levels of the exited states, for this reason, for most the oxygen species, the thermodynamic equilibrium is hardly established [paper jorg] and therefore the measured lines cannot be use in the calibration-free method.
+Particular attention must be paid with respect to the measurement of the oxygen concentration. In pure fused silica glass (\ce{SiO2}), oxygen makes up for most of the species in the glass composition, since its stoichiometric contribution is about 2/3, or roughly 68\%, of the total number of atoms. Oxygen atoms are characterized by large gaps between energy levels of the exited states, for this reason, for most the oxygen species, the thermodynamic equilibrium is hardly established and therefore the measured lines cannot be use in the calibration-free method \cite{tognoniCalibrationFreeLaserInducedBreakdown2010}.
 \\
 This issue is even more noticeable when carrying out LIBS measurements in ambient air, like in our case, because oxygen is also present in the air surrounding the target sample and therefore, the measured emission is higher relative to the expected one from the real composition of the sample. 
 \\
@@ -443,20 +442,11 @@ Under this condition, the standard procedure is to manually set the relative con
 
 
 
-
-
-
-
-
-
-
-
-
 \section{Polishing}
 \label{Polishing}
 Ensuring a uniform and correct polishing of the glass samples was one of the main concerns of our project. The procedure had to be reproducible and consistent between different runs, in order to introduce the least amount of non-controllable variables and to isolate the effect of the parameters that we were investigating.
 \\
-In addition, some of the samples were processed even up to consecutive hours, so a partial automatization of the workflow had to be done.
+In addition, some samples were processed even up to consecutive hours, so a partial automatization of the workflow had to be done.
 \subsection{Description of the Polishing Apparatus}
 \label{subsec:description_polish_apparatus}
 In this section, we will briefly describe the primary instrumentation we employed for glass processing.
@@ -509,12 +499,12 @@ In the end, the holder setup was completed utilizing a steel block with a weight
 
 \subsubsection{Grinding paper and polishing pad}
 \label{subsubsec:grinding_paper_and_pad}
-As for the grinding paper, a silicon carbide disk was employed, while for the polishing cloth, a magnetic backed 8 inches disk made of synthetic rayon was used.
+As for the grinding paper, a silicon carbide disk was employed with a grit size 220 (p240), while for the polishing cloth, a magnetic backed 8 inches disk made of synthetic rayon was used.
 \subsection{Parameters Chosen}
 \label{subsec:parameters_chosen_polish}
 To understand the relevant variables that could influence the introduction of contaminants in the glass, we had to choose a fixed number of possible parameters, from the ones listed at the start of Chapter~\ref{sec:pol_parameter}, that needed to vary between measurements.
 \\
-In a similar way done for the identification of the most valid LIBS parameter done in Chapter~\ref{subsec:parameters_chosen}, we did a set of tests to select the relevant variables that regarded the polishing process.
+Similarly to the identification of the most valid LIBS parameter done in Chapter~\ref{subsec:parameters_chosen}, we did a set of tests to select the relevant variables that regarded the polishing process.
 
 \subsubsection{Type of Glass}
 Pure silica is not the only glass employed in optics, \ce{SiO2} is often doped with various compounds to tune the final refractive index of the material.
@@ -523,9 +513,7 @@ The presence of other species could impact both physical and chemical properties
 \\
 The two types of glass that were at our disposal were: pure silica, high purity samples provided by the manufacturer “QI Optiq”, and NZK-7, provided by the manufacturer “Schott”. 
 \\
-NZK-7 is a glass with a principal refractive index $n_d$, measured at $587.56 \: nm$, of 1.50847, and has an elemental composition displayed in Table~\ref{table:nzk7_concentration}:
-
-
+NZK-7 is a glass with a principal refractive index $n_d$, measured at $587.56 \: nm$, of 1.50847, and has an elemental composition displayed in Table~\ref{table:nzk7_concentration} \cite{NZK7SCHOTTAdvanced}:
 
 \begin{table}[H]
     \centering
@@ -541,7 +529,7 @@ Antimony Trioxide & \textless 1                  \\ \hline
 Silica            & 60 - 70                        \\ \hline
 Zinc Oxide        & 10 - 20                        \\ \hline
 \end{tabular}
-\caption{Chemical composistion of NZK-7 glass. }
+\caption{Chemical composition of NZK-7 glass. }
     \label{table:nzk7_concentration}
 \end{table}
 
@@ -567,9 +555,9 @@ The specific products we employed were:
     \item An aluminum oxide powder supplied by the company CharpauS, with a particle size between 2 and $6 \: \mu m$.
 \end{itemize}
 
-The limits of detection (LOD) of cerium and aluminum found in literature are, respectively, around $100 \: ppm$ and $1\: ppm$. [LOD taken from LIBS-info]
+The limits of detection (LOD) of cerium and aluminum found in literature are, respectively, around $100 \: ppm$ \cite{martinExploringLaserinducedBreakdown2012} and $1\: ppm$ \cite{caceresQuantitativeAnalysisTrace2001}.
 \\
-By also looking at the theoretical emission spectra of cerium in Figure~\ref{fig:ce_plot_nist}, plotted from the information of the “relative intensity” on the NIST database, it is evident that there is no single peak that stands out and can therefore be easily identified. Emission lines cover almost continuously the whole spectrum from $350 \: nm$ to $500 \: nm$.
+By also looking at the theoretical emission spectra of cerium in Figure~\ref{fig:ce_plot_nist}, plotted from the information of the “relative intensity” on the NIST database \cite{NISTAtomicSpectra}, it is evident that there is no single peak that stands out and can therefore be easily identified. Emission lines cover almost continuously the whole spectrum from $350 \: nm$ to $500 \: nm$.
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_3/polish_setup_graphs/spectra_cerium.pdf} 
@@ -579,7 +567,7 @@ By also looking at the theoretical emission spectra of cerium in Figure~\ref{fig
 \end{figure}
 This combined with the high LOD makes it particularly difficult to find this element in low concentrations using LIBS.
 \\
-In Figure~\ref{fig:ce_peaks_raw_polished} there is the comparison between the spectra of the same glass sample, raw and after one hour of polishing. In the highlighted spectral regions, there should be two intense cerium lines. It is clear that that even after 
+In Figure~\ref{fig:ce_peaks_raw_polished} there is the comparison between the spectra of the same glass sample, raw and after one hour of polishing. In the highlighted spectral regions, there should be two intense cerium lines.
 \begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{chapter_3/polish_setup_graphs/raw_polished_siO2_cerium.pdf} 
@@ -611,11 +599,11 @@ In this section will be presented the results of LIBS analysis performed on all 
 
 \subsubsection{Polishing Powders}
 \label{subsubsec:meas_pol_powders}
-LIBS analysis performed on a tablet of compressed aluminum oxide powder showed a very low presence of elements other than aluminum. Precisely calcium is present at a relative concentration lower than 1\% while only a few traces of copper and gallium were detected.
+LIBS analysis performed on a tablet of compressed aluminum oxide powder showed a very low presence of elements other than aluminum. Calcium is present at a relative concentration, lower than 1\%, while only a few traces of copper and gallium were detected.
 
 \subsubsection{Silicon Carbide Grinding Paper}
 \label{subsubsec:grinding_paper_meas}
-Some LIBS analyses were also performed on a sample of unused grinding paper. Sodium was found to be present at a very high relative concentration of about 10\%. A small portion of contaminants such as calcium and iron were found with concentrations lower than 0.5\%, while the presence of other traces elements, such as magnesium and lanthanum, was also detected with concentrations in the order of few ppm.
+Some LIBS analyses were also performed on a sample of unused grinding paper. Sodium was found to be present at a very high relative concentration of about 10\%. A small portion of contaminants such as calcium and iron were found with concentrations lower than 0.5\%, while the presence of other traces elements, such as magnesium and lanthanum, was detected with concentrations in the order of few ppm.
 
 \subsubsection{Polishing Pad}
 \label{subsubsec:polishing_pad_meas}
@@ -623,7 +611,7 @@ The polishing pad was also subjected to the same kind of analysis. Not surprisin
 
 
 \subsubsection{Tap Water Chemical Composition}
-\label{subsubsec:polishing_pad_meas}
+\label{subsubsec:tap_water_chemical_comp}
 The type of water mostly used in the optics manufacturing industry is tap water. In Germany, public water quality is periodically checked and an elemental composition analysis for the tap water in Göttingen is easily accessible from public databases. In Table~\ref{table:water_composition} are shown the main elements dissolved in the water we used during both the grinding and polishing processes:
 
 \begin{table}[H]
@@ -647,7 +635,7 @@ The type of water mostly used in the optics manufacturing industry is tap water.
     Aluminum                       & mg/l   & 0,02-0,03                                 \\ \hline
     Oxygen                         & mg/l   & 9,2-13,0                                  \\ \hline
     \end{tabular}
-    \caption{Chemical composition of tap water in Göttingen in 2023.}
+    \caption{Chemical composition of tap water in Göttingen in 2023 \cite{WasserversorgungGottingenStadtwerke}.}
         \label{table:water_composition}
     \end{table}
 
@@ -655,7 +643,7 @@ With the goal of partially mitigating the contamination process on the surface o
 \\
 This was particularly challenging due to the need to ensure the contact of the glass only with instruments washed with distilled water, from the glassware, where the polishing slurry was prepared, to the tweezers used to handle the samples. The grinding paper and the polishing pad also had to be replaced constantly for the same reason.
 \\
-But due to the extremely high solubility of distilled water, the risk of accidentally dissolving species into the solution was always a concern.
+But due to the extremely high dissolving power of distilled water, the risk of accidentally dissolving species into the solution was always a concern.
 
 \section{Other apparatuses}
 \label{sec:other_apparatuses}
@@ -671,7 +659,7 @@ During measurements, a lot of issues were caused by the lack of consistency betw
 \\
 Even though the presence and position of the absorption peaks remained constant, the absolute value of the absorption could vary a lot.
 \\
-In Figure~\ref{fig:ftir_issues} are shown different FTIR measurements of the same sample, the runs were done by simply removing and replacing the material from the apparatus.
+In Figure~\ref{fig:ftir_issues} are shown different FTIR spectra of the same sample, between each measurement the glass was just simply removed and placed again in the apparatus, without any processing.
 
 \begin{figure}[H]
     \centering
@@ -687,7 +675,7 @@ In the plot we can see that even the transmission at the wavenumber range betwee
 \label{subsec:contact_angle_setup}
 The contact angle measurement apparatus was provided by the Kruss company, specifically, the DSA100E automated system.
 \\
-Experiments were carried out using water (\ce{H2O}) and diiodomethane (\ce{ CH2I2}) as, respectively, polar and apolar probe liquids.
+Experiments were carried out using water (\ce{H2O}) and diiodomethane (\ce{ CH2I2}) as, respectively, polar and non-polar probe liquids.
 \\
 This technique is very sensible to surface characteristics and particular attention must be paid to avoid unwanted depositions of external substances. In our case, we discovered that cleaning between measurements with isopropanol could heavily influence the evaluation of the contact angle.  
 \\ 
@@ -709,5 +697,5 @@ The XPS apparatus that measured our samples is a PHI VersaProbe II from Ulvac-ph
 \\
 As explained in Chapter~\ref{sec:xps}, the XPS analysis is sensitive to just a few monolayers of the surface of the sample. To carry out depth resolved examinations, a small portion of the sample is removed from the surface with ion etching and consecutive measurements are conducted until the desired depth is reached.
 \\
-In our case, z-resolution was not one of the focuses of our research, so the XPS measurements were done only one time per sample, after surface cleaning had been performed with ion etching.
+In our case, z-resolution was not one of the focuses of our research, so the XPS measurements were done only one time per sample, ion etching was still performed to clean the surface.
 
