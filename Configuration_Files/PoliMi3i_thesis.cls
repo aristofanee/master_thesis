@@ -96,6 +96,8 @@
 \define@key[OIST]{title}{academicyear}{\def\academicyear{#1}}
 \define@key[OIST]{title}{course}{\def\course{#1}}
 
+
+
 \providecommand{\puttitle}{}
 \renewcommand{\puttitle}[1]{
 	\@puttitle{}{#1}
@@ -115,7 +117,7 @@
             \\
 			\vspace{2.5cm}
 			\\
-			{{\color{bluepoli} \singlespacing \huge \bfseries \thesistitle \par}}	
+			{{\color{bluepoli} \raggedright \singlespacing \huge \bfseries \thesistitle \par}}	
 			\vspace{1.5cm}
 			{\color{bluepoli} \bfseries \large{\textsc{Tesi di Laurea Magistrale in\\ \course}}\par}
 			\vspace{1.5 cm}
